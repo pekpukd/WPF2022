@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32228.343
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00 014 SayHello", "00 014 SayHello\00 014 SayHello.csproj", "{793284FA-333A-4836-8096-314E5F91385F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 020 InheritTheApp", "01 020 InheritTheApp\01 020 InheritTheApp.csproj", "{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{793284FA-333A-4836-8096-314E5F91385F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{793284FA-333A-4836-8096-314E5F91385F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{793284FA-333A-4836-8096-314E5F91385F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
