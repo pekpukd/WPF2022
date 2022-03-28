@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00 014 SayHello", "00 014 S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 031 TypeYourTitle", "01 031 TypeYourTitle\01 031 TypeYourTitle.csproj", "{1507BB93-6C9A-4F63-9F8F-8FDA6BD44ED7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 066 FormatTheText", "03 066 FormatTheText\03 066 FormatTheText\03 066 FormatTheText.csproj", "{BFDBCE6F-FF52-4E0E-B008-B42CBA87550A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1507BB93-6C9A-4F63-9F8F-8FDA6BD44ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1507BB93-6C9A-4F63-9F8F-8FDA6BD44ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1507BB93-6C9A-4F63-9F8F-8FDA6BD44ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFDBCE6F-FF52-4E0E-B008-B42CBA87550A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDBCE6F-FF52-4E0E-B008-B42CBA87550A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDBCE6F-FF52-4E0E-B008-B42CBA87550A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDBCE6F-FF52-4E0E-B008-B42CBA87550A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
