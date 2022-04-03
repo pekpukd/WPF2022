@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 052 RotateTheGradientOri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 022 ThrowWinPatry", "01 022 ThrowWinPatry\01 022 ThrowWinPatry.csproj", "{AB6D60C4-0078-40CC-BFC7-EC2157130B7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 071 RenderTheGraphic", "03 071 RenderTheGraphic\03 071 RenderTheGraphic.csproj", "{BD019FB5-D774-463C-8EA9-BFD737640347}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AB6D60C4-0078-40CC-BFC7-EC2157130B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB6D60C4-0078-40CC-BFC7-EC2157130B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB6D60C4-0078-40CC-BFC7-EC2157130B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD019FB5-D774-463C-8EA9-BFD737640347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD019FB5-D774-463C-8EA9-BFD737640347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD019FB5-D774-463C-8EA9-BFD737640347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD019FB5-D774-463C-8EA9-BFD737640347}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
