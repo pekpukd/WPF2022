@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 039 FlipThroughTheBrushe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 042 GradiateTheBrush", "02 042 GradiateTheBrush\02 042 GradiateTheBrush.csproj", "{B23A4911-8B46-448C-86A2-142BEE389095}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 073 ClickTheButton", "04 073 ClickTheButton\04 073 ClickTheButton.csproj", "{870597B8-978C-429D-BE93-343374F49DCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B23A4911-8B46-448C-86A2-142BEE389095}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B23A4911-8B46-448C-86A2-142BEE389095}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B23A4911-8B46-448C-86A2-142BEE389095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{870597B8-978C-429D-BE93-343374F49DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{870597B8-978C-429D-BE93-343374F49DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{870597B8-978C-429D-BE93-343374F49DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{870597B8-978C-429D-BE93-343374F49DCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
