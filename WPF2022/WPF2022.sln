@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 039 FlipThroughTheBrushe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 020 InheritTheApp", "01 020 InheritTheApp\01 020 InheritTheApp.csproj", "{88538998-3FE6-4D16-8C11-9FEDB72AA649}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 054 DisplaySomeText", "03 054 DisplaySomeText\03 054 DisplaySomeText.csproj", "{3E5DCB7F-922D-4357-933E-D2944AABDF2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{88538998-3FE6-4D16-8C11-9FEDB72AA649}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88538998-3FE6-4D16-8C11-9FEDB72AA649}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88538998-3FE6-4D16-8C11-9FEDB72AA649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
