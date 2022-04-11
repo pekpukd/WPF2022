@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 020 InheritTheApp", "01 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 046 AdjustTheGradient", "02 046 AdjustTheGradient\02 046 AdjustTheGradient.csproj", "{D81C0D55-8BE4-4C97-9BFD-D01E50F92E55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 0smth ImageTheButton", "04 0smth ImageTheButton\04 0smth ImageTheButton.csproj", "{9C698B21-F074-4E5A-807E-25B1DF43C6EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 078 ImageTheButton", "04 0smth ImageTheButton\04 078 ImageTheButton.csproj", "{9C698B21-F074-4E5A-807E-25B1DF43C6EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

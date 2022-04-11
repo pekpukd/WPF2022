@@ -27,7 +27,7 @@ namespace Petzold.ImageTheButton
             btn.Content = img;                                            // присваиваем img свйоству Content "кнопки"
             btn.HorizontalAlignment = HorizontalAlignment.Center;         // HorizontalAlignment Указывает, где должен отображаться элемент на горизонтальной оси относительно выделенного раздела макета родительского элемента
             btn.VerticalAlignment = VerticalAlignment.Center;             // аналогично, но для вертикальной оси
-            Content = btn;                                                
+            Content = btn;                                                // экземпляр класса Button задается свойству Content окна
         }
     }
 }
