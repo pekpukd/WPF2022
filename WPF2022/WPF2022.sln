@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 039 FlipThroughTheBrushe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 110 ExploreDirectories", "05 110 ExploreDirectories\05 110 ExploreDirectories\05 110 ExploreDirectories.csproj", "{DCE2A09A-E9C3-4F22-9589-8E32ED97406B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 169 ExamineRoutedEvents", "09 169 ExamineRoutedEvents\09 169 ExamineRoutedEvents\09 169 ExamineRoutedEvents.csproj", "{EE43F01C-980F-46D5-8539-83D65F0D0CF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DCE2A09A-E9C3-4F22-9589-8E32ED97406B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCE2A09A-E9C3-4F22-9589-8E32ED97406B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCE2A09A-E9C3-4F22-9589-8E32ED97406B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE43F01C-980F-46D5-8539-83D65F0D0CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE43F01C-980F-46D5-8539-83D65F0D0CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE43F01C-980F-46D5-8539-83D65F0D0CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE43F01C-980F-46D5-8539-83D65F0D0CF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
