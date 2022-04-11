@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30611.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00 014 SayHello", "00 014 SayHello\00 014 SayHello.csproj", "{793284FA-333A-4836-8096-314E5F91385F}"
 EndProject
@@ -30,7 +30,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 046 AdjustTheGradient", "02 046 AdjustTheGradient\02 046 AdjustTheGradient.csproj", "{D81C0D55-8BE4-4C97-9BFD-D01E50F92E55}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 0smth ImageTheButton", "04 0smth ImageTheButton\04 0smth ImageTheButton.csproj", "{9C698B21-F074-4E5A-807E-25B1DF43C6EE}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 061 ShowMyFace", "06 061 ShowMyFace\06 061 ShowMyFace.csproj", "{BEB5801A-BE19-484F-A00B-418E4958FF36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 061 ShowMyFace", "03 061 ShowMyFace\03 061 ShowMyFace.csproj", "{E253CD67-E36F-4A74-AABF-10AB3A79C1C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -98,6 +101,10 @@ Global
 		{BEB5801A-BE19-484F-A00B-418E4958FF36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEB5801A-BE19-484F-A00B-418E4958FF36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEB5801A-BE19-484F-A00B-418E4958FF36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E253CD67-E36F-4A74-AABF-10AB3A79C1C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E253CD67-E36F-4A74-AABF-10AB3A79C1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E253CD67-E36F-4A74-AABF-10AB3A79C1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E253CD67-E36F-4A74-AABF-10AB3A79C1C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
