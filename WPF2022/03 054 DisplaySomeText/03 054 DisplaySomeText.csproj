@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9562E1EB-A841-4B5D-9C08-A7666FF48899}</ProjectGuid>
+    <ProjectGuid>{3E5DCB7F-922D-4357-933E-D2944AABDF2B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ScrollFiftyButtons.cs</RootNamespace>
-    <AssemblyName>ScrollFiftyButtons.cs</AssemblyName>
+    <RootNamespace>ConsoleApp7</RootNamespace>
+    <AssemblyName>ConsoleApp7</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,7 +46,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="05 103 ScrollFiftyButtons.cs" />
+    <Compile Include="03 054 DisplaySomeText.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

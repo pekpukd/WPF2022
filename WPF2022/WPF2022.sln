@@ -25,11 +25,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 025 InheritTheApp", "01 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 085 BindTheButton", "04 085 BindTheButton\04 085 BindTheButton.csproj", "{90132774-2BB8-40A1-B7E1-2FA53829872F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 020 InheritTheApp", "01 020 InheritTheApp\01 020 InheritTheApp.csproj", "{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 046 AdjustTheGradient", "02 046 AdjustTheGradient\02 046 AdjustTheGradient.csproj", "{D81C0D55-8BE4-4C97-9BFD-D01E50F92E55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 103 ScrollFiftyButtons.cs", "..\..\05 103 ScrollFiftyButtons.cs\05 103 ScrollFiftyButtons.cs\05 103 ScrollFiftyButtons.cs.csproj", "{9562E1EB-A841-4B5D-9C08-A7666FF48899}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 054 DisplaySomeText", "03 054 DisplaySomeText\03 054 DisplaySomeText.csproj", "{3E5DCB7F-922D-4357-933E-D2944AABDF2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 020 InheritTheApp", "01 020 InheritTheApp\01 020 InheritTheApp.csproj", "{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 103 ScrollFiftyButtons.cs", "05 103 ScrollFiftyButtons.cs\05 103 ScrollFiftyButtons.cs\05 103 ScrollFiftyButtons.cs.csproj", "{9562E1EB-A841-4B5D-9C08-A7666FF48899}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,14 +83,18 @@ Global
 		{90132774-2BB8-40A1-B7E1-2FA53829872F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90132774-2BB8-40A1-B7E1-2FA53829872F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90132774-2BB8-40A1-B7E1-2FA53829872F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D81C0D55-8BE4-4C97-9BFD-D01E50F92E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D81C0D55-8BE4-4C97-9BFD-D01E50F92E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D81C0D55-8BE4-4C97-9BFD-D01E50F92E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D81C0D55-8BE4-4C97-9BFD-D01E50F92E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9562E1EB-A841-4B5D-9C08-A7666FF48899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9562E1EB-A841-4B5D-9C08-A7666FF48899}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9562E1EB-A841-4B5D-9C08-A7666FF48899}.Release|Any CPU.ActiveCfg = Release|Any CPU
