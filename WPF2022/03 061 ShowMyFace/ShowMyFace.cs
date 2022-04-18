@@ -16,7 +16,7 @@ namespace Petzold.ShowMyFace
         public static void Main()
         {
             Application app = new Application(); //создаем объект типа Application
-            app.Run(new ShowMyFace()); ////вызов метода Run, котрый запускает цикл сообщений
+            app.Run(new ShowMyFace()); //вызов метода Run, котрый запускает цикл сообщений
         }
         public ShowMyFace()
         {
