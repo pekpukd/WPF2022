@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows;
 using System.Windows.Input;
-using System.Windows.Media;
+using System.Windows.Media;  //включает изображения, текст, аудио, видео
 
 namespace Petzold.DisplaySomeText
 {
@@ -17,8 +17,8 @@ namespace Petzold.DisplaySomeText
         public DisplaySomeText()   //метод класса DisplaySomeText
         {
             Title = "Display Some Text";  //заголовок окна
-            Content = "Content can be simple text!"; //текст, который выводиться на экран
-            FontFamily = new FontFamily("Times New Roman");   //название шрифта, FontFamili - семейство связных гарнитур, гарнитура- разновидность семейств например Times New Roman
+            Content = "Content can be simple text!"; //текст, который выводится на экран
+            FontFamily = new FontFamily("Times New Roman");   //название шрифта, FontFamili - семейство связных гарнитур, гарнитура- разновидность семейств, например, Times New Roman
             FontSize = 32;  //размер шрифта
             FontStyle = FontStyles.Oblique;  //наклон символов вправо 
             FontWeight = FontWeights.Bold;   //полужирные написание

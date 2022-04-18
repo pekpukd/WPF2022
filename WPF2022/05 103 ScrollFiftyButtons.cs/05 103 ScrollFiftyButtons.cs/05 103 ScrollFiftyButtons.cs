@@ -20,16 +20,16 @@ namespace Petzold.ScrollFiftyButtons
             AddHandler(Button.ClickEvent,
                        new RoutedEventHandler(ButtonOnClick));
 
-           //ScrollViewer scroll = new ScrollViewer();  //класс управляющий видимостью вертикальной и горизонтальной полос прокрутки
-           // Content = scroll; //прокрука
+           ScrollViewer scroll = new ScrollViewer();  //класс управляющий видимостью вертикальной и горизонтальной полос прокрутки
+            Content = scroll; //прокрука
             StackPanel stack = new StackPanel();  //метод компановки, располагает все элементы в ряд (по умолчанию по вертикали)
 
-            Viewbox view = new Viewbox(); //класс,принимающий единственный дочерний элемент
-            Content = view;  
-            view.Child = stack;  
+           // Viewbox view = new Viewbox(); //класс,принимающий единственный дочерний элемент
+           // Content = view;  
+           // view.Child = stack;  
 
             stack.Margin = new Thickness(5); //внешние отступы для самой панели широной в 5 аппаратно-независимых единиц (около 1/20 дюйма)
-            //scroll.Content = stack;
+            scroll.Content = stack;
             for (int i = 0; i < 50; i++) //цикл, перебирающий элементы от 0 до 50, шагом +1
             {
                 Button btn = new Button();   //в .btn классы предназаченные для использования с Button (Button - обычная кнопка)
