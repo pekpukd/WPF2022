@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 103 ScrollFiftyButtons.c
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 150 SetFontSizeProperty", "08 150 SetFontSizeProperty\08 150 SetFontSizeProperty.csproj", "{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 106 DesignAButton", "05 106 DesignAButton\05 106 DesignAButton.csproj", "{32918C01-7436-4799-A94C-BBAFF1A582BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 127 SpanTheCells", "06 127 SpanTheCells\06 127 SpanTheCells.csproj", "{3A716852-860F-47DC-A62F-80933EF8FFAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32918C01-7436-4799-A94C-BBAFF1A582BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32918C01-7436-4799-A94C-BBAFF1A582BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32918C01-7436-4799-A94C-BBAFF1A582BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32918C01-7436-4799-A94C-BBAFF1A582BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A716852-860F-47DC-A62F-80933EF8FFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A716852-860F-47DC-A62F-80933EF8FFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A716852-860F-47DC-A62F-80933EF8FFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A716852-860F-47DC-A62F-80933EF8FFAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
