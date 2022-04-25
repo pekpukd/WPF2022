@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31919.166
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00 014 SayHello", "00 014 SayHello\00 014 SayHello.csproj", "{793284FA-333A-4836-8096-314E5F91385F}"
 EndProject
@@ -56,6 +56,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 106 DesignAButton", "05 106 DesignAButton\05 106 DesignAButton.csproj", "{32918C01-7436-4799-A94C-BBAFF1A582BA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 127 SpanTheCells", "06 127 SpanTheCells\06 127 SpanTheCells.csproj", "{3A716852-860F-47DC-A62F-80933EF8FFAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 241 SelectColor", "11 241 SelectColor\11 241 SelectColor.csproj", "{324682AD-C0F1-4EDF-8C10-E88DE18AE7D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{3A716852-860F-47DC-A62F-80933EF8FFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A716852-860F-47DC-A62F-80933EF8FFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A716852-860F-47DC-A62F-80933EF8FFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324682AD-C0F1-4EDF-8C10-E88DE18AE7D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324682AD-C0F1-4EDF-8C10-E88DE18AE7D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324682AD-C0F1-4EDF-8C10-E88DE18AE7D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324682AD-C0F1-4EDF-8C10-E88DE18AE7D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
