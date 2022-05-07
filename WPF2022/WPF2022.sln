@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 106 DesignAButton", "05 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 127 SpanTheCells", "06 127 SpanTheCells\06 127 SpanTheCells.csproj", "{3A716852-860F-47DC-A62F-80933EF8FFAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 161 SetSpaceProperty", "08 161 SetSpaceProperty\08 161 SetSpaceProperty.csproj", "{BED1BDA2-1B3F-4EFB-81AD-865E73A3CA5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{3A716852-860F-47DC-A62F-80933EF8FFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A716852-860F-47DC-A62F-80933EF8FFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A716852-860F-47DC-A62F-80933EF8FFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED1BDA2-1B3F-4EFB-81AD-865E73A3CA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED1BDA2-1B3F-4EFB-81AD-865E73A3CA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED1BDA2-1B3F-4EFB-81AD-865E73A3CA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED1BDA2-1B3F-4EFB-81AD-865E73A3CA5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
