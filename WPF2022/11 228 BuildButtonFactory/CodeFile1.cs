@@ -108,7 +108,7 @@ namespace Petzold.BuildButtonFactory
             btn.Content = "Кнопка с пользовательским шаблоном";
             btn.Padding = new Thickness(20);
             btn.FontSize = 48; //размер шрифта
-            btn.HorizontalAlignment = HorizontalAlignment.Center; //выавненна по центру по горизонтали
+            btn.HorizontalAlignment = HorizontalAlignment.Center; //кнопка выравнена по центру по горизонтали
                                                                   //и по вертикали
             btn.VerticalAlignment = VerticalAlignment.Center; 
             btn.Click += ButtonOnClick;
