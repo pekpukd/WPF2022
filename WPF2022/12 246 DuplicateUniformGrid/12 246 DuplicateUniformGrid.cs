@@ -5,7 +5,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 namespace Petzold.DuplicateUniformGrid
 {
-    class UniformGridAlmost : Panel 
+    class UniformGridAlmost : Panel //добавили класс -- пример со стр. 244, 
+                                    //чтобы можно было его использовать в нашем примере
     {
         // Открытые статистические зависимые свойства только для чтения.
         public static readonly DependencyProperty ColumnsProperty;
