@@ -15,6 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 042 GradiateTheBrush", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 073 ClickTheButton", "04 073 ClickTheButton\04 073 ClickTheButton.csproj", "{870597B8-978C-429D-BE93-343374F49DCD}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 052 RotateTheGradientOrigin", "02 052 RotateTheGradientOrigin\02 052 RotateTheGradientOrigin.csproj", "{DA0B9C59-62C5-4C41-9587-4FB8A127B70D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 022 ThrowWinPatry", "01 022 ThrowWinPatry\01 022 ThrowWinPatry.csproj", "{AB6D60C4-0078-40CC-BFC7-EC2157130B7F}"
@@ -34,6 +35,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 020 InheritTheApp", "D:\01 020 InheritTheApp\01 020 InheritTheApp\01 020 InheritTheApp.csproj", "{EADAC97F-250F-4401-B854-6DE06451D7C3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 246 DuplicateUniformGrid", "12 246 DuplicateUniformGrid\12 246 DuplicateUniformGrid.csproj", "{EF13FF3C-B989-45A3-BE67-99E4F35F99D7}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 133 SplitTheClient", "06 133 SplitTheClient\06 133 SplitTheClient.csproj", "{4B48C198-0129-4923-8097-78F8AC357E47}"
+>>>>>>> 98fbb35bb344ae5a8fc1eda798076050ff3b77d1
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +69,7 @@ Global
 		{870597B8-978C-429D-BE93-343374F49DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{870597B8-978C-429D-BE93-343374F49DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{870597B8-978C-429D-BE93-343374F49DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{DA0B9C59-62C5-4C41-9587-4FB8A127B70D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DA0B9C59-62C5-4C41-9587-4FB8A127B70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA0B9C59-62C5-4C41-9587-4FB8A127B70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -105,11 +110,17 @@ Global
 		{EF13FF3C-B989-45A3-BE67-99E4F35F99D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF13FF3C-B989-45A3-BE67-99E4F35F99D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF13FF3C-B989-45A3-BE67-99E4F35F99D7}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{4B48C198-0129-4923-8097-78F8AC357E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B48C198-0129-4923-8097-78F8AC357E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B48C198-0129-4923-8097-78F8AC357E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B48C198-0129-4923-8097-78F8AC357E47}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 98fbb35bb344ae5a8fc1eda798076050ff3b77d1
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1ACAF6A4-6533-4279-85AD-0C1B2BF65C3D}
+		SolutionGuid = {9221F7E9-99E1-4290-AF7A-4A2F33CAF8F9}
 	EndGlobalSection
 EndGlobal
