@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 046 AdjustTheGradient", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 133 SplitTheClient", "06 133 SplitTheClient\06 133 SplitTheClient.csproj", "{4B48C198-0129-4923-8097-78F8AC357E47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 228 BuildButtonFactory", "11 228 BuildButtonFactory\11 228 BuildButtonFactory.csproj", "{1CAE9BCC-2B3F-4EC1-BE92-B294B8D033EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 299 PeruseTheMenu", "14 299 PeruseTheMenu\14 299 PeruseTheMenu.csproj", "{10CD61F5-D91A-460C-AEC3-A54EC1C69B75}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 061 ShowMyFace", "03 061 ShowMyFace\03 061 ShowMyFace.csproj", "{E253CD67-E36F-4A74-AABF-10AB3A79C1C9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 078 ImageTheButton", "04 078 ImageTheButton\04 078 ImageTheButton.csproj", "{9C698B21-F074-4E5A-807E-25B1DF43C6EE}"
@@ -48,8 +52,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 054 DisplaySomeText", "03 054 DisplaySomeText\03 054 DisplaySomeText.csproj", "{3E5DCB7F-922D-4357-933E-D2944AABDF2B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 103 ScrollFiftyButtons.cs", "05 103 ScrollFiftyButtons.cs\05 103 ScrollFiftyButtons.cs\05 103 ScrollFiftyButtons.cs.csproj", "{9562E1EB-A841-4B5D-9C08-A7666FF48899}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 150 SetFontSizeProperty", "08 150 SetFontSizeProperty\08 150 SetFontSizeProperty.csproj", "{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 106 DesignAButton", "05 106 DesignAButton\05 106 DesignAButton.csproj", "{32918C01-7436-4799-A94C-BBAFF1A582BA}"
 EndProject
@@ -70,6 +72,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30 867 EnlargeButtonWithTimer", "30 867 EnlargeButtonWithTimer\30 867 EnlargeButtonWithTimer.csproj", "{7AF7266C-C0F7-4A1B-8E59-8D41C01D0CC5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30 869 EnlargeButtonWithAnimation", "30 869 EnlargeButtonWithAnimation\30 869 EnlargeButtonWithAnimation.csproj", "{CF2F2EE3-393E-459B-AFEE-272A8E328B5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 150 SetFontSizeProperty", "08 150 SetFontSizeProperty\08 150 SetFontSizeProperty.csproj", "{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +157,14 @@ Global
 		{4B48C198-0129-4923-8097-78F8AC357E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B48C198-0129-4923-8097-78F8AC357E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B48C198-0129-4923-8097-78F8AC357E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAE9BCC-2B3F-4EC1-BE92-B294B8D033EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAE9BCC-2B3F-4EC1-BE92-B294B8D033EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAE9BCC-2B3F-4EC1-BE92-B294B8D033EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAE9BCC-2B3F-4EC1-BE92-B294B8D033EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10CD61F5-D91A-460C-AEC3-A54EC1C69B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10CD61F5-D91A-460C-AEC3-A54EC1C69B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10CD61F5-D91A-460C-AEC3-A54EC1C69B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10CD61F5-D91A-460C-AEC3-A54EC1C69B75}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E253CD67-E36F-4A74-AABF-10AB3A79C1C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E253CD67-E36F-4A74-AABF-10AB3A79C1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E253CD67-E36F-4A74-AABF-10AB3A79C1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -169,10 +181,6 @@ Global
 		{9562E1EB-A841-4B5D-9C08-A7666FF48899}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9562E1EB-A841-4B5D-9C08-A7666FF48899}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9562E1EB-A841-4B5D-9C08-A7666FF48899}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{32918C01-7436-4799-A94C-BBAFF1A582BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{32918C01-7436-4799-A94C-BBAFF1A582BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32918C01-7436-4799-A94C-BBAFF1A582BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -213,6 +221,10 @@ Global
 		{CF2F2EE3-393E-459B-AFEE-272A8E328B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF2F2EE3-393E-459B-AFEE-272A8E328B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF2F2EE3-393E-459B-AFEE-272A8E328B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
