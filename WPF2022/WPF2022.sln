@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31919.166
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00 014 SayHello", "00 014 SayHello\00 014 SayHello.csproj", "{793284FA-333A-4836-8096-314E5F91385F}"
 EndProject
@@ -11,7 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 066 FormatTheText", "03 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 039 FlipThroughTheBrushes", "02 039 FlipThroughTheBrushes\02 039 FlipThroughTheBrushes\02 039 FlipThroughTheBrushes.csproj", "{AC640A7E-027A-4CD7-82D1-6E5544417055}"
 EndProject
-<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 042 GradiateTheBrush", "02 042 GradiateTheBrush\02 042 GradiateTheBrush.csproj", "{B23A4911-8B46-448C-86A2-142BEE389095}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 073 ClickTheButton", "04 073 ClickTheButton\04 073 ClickTheButton.csproj", "{870597B8-978C-429D-BE93-343374F49DCD}"
@@ -33,13 +32,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 061 ShowMyFace", "03 061 ShowMyFace\03 061 ShowMyFace.csproj", "{E253CD67-E36F-4A74-AABF-10AB3A79C1C9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 078 ImageTheButton", "04 078 ImageTheButton\04 078 ImageTheButton.csproj", "{9C698B21-F074-4E5A-807E-25B1DF43C6EE}"
-=======
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 110 ExploreDirectories", "05 110 ExploreDirectories\05 110 ExploreDirectories\05 110 ExploreDirectories.csproj", "{DCE2A09A-E9C3-4F22-9589-8E32ED97406B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 169 ExamineRoutedEvents", "09 169 ExamineRoutedEvents\09 169 ExamineRoutedEvents\09 169 ExamineRoutedEvents.csproj", "{EE43F01C-980F-46D5-8539-83D65F0D0CF9}"
->>>>>>> 9514a597b12cc9ae3c95c7153bab29c8413cb6c2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13 279 ListColorShapes", "13 279 ListColorShapes\13 279 ListColorShapes\13 279 ListColorShapes.csproj", "{9A3E4609-E6C2-4036-973C-DE9E30790BBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13 280 ListColoredLabels", "13 280 ListColoredLabels\13 280 ListColoredLabels\13 280 ListColoredLabels.csproj", "{E97CB0B4-0A24-4DE4-A8A4-3DDC3ABD8B1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,7 +63,6 @@ Global
 		{AC640A7E-027A-4CD7-82D1-6E5544417055}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC640A7E-027A-4CD7-82D1-6E5544417055}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC640A7E-027A-4CD7-82D1-6E5544417055}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{B23A4911-8B46-448C-86A2-142BEE389095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B23A4911-8B46-448C-86A2-142BEE389095}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B23A4911-8B46-448C-86A2-142BEE389095}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -108,7 +107,6 @@ Global
 		{9C698B21-F074-4E5A-807E-25B1DF43C6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C698B21-F074-4E5A-807E-25B1DF43C6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C698B21-F074-4E5A-807E-25B1DF43C6EE}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
 		{DCE2A09A-E9C3-4F22-9589-8E32ED97406B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DCE2A09A-E9C3-4F22-9589-8E32ED97406B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCE2A09A-E9C3-4F22-9589-8E32ED97406B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -117,19 +115,19 @@ Global
 		{EE43F01C-980F-46D5-8539-83D65F0D0CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE43F01C-980F-46D5-8539-83D65F0D0CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE43F01C-980F-46D5-8539-83D65F0D0CF9}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
->>>>>>> 9514a597b12cc9ae3c95c7153bab29c8413cb6c2
-=======
 		{9A3E4609-E6C2-4036-973C-DE9E30790BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9A3E4609-E6C2-4036-973C-DE9E30790BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A3E4609-E6C2-4036-973C-DE9E30790BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A3E4609-E6C2-4036-973C-DE9E30790BBA}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> 69d792dc64187ddca5d19458004070b5ad8e072d
+		{E97CB0B4-0A24-4DE4-A8A4-3DDC3ABD8B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97CB0B4-0A24-4DE4-A8A4-3DDC3ABD8B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97CB0B4-0A24-4DE4-A8A4-3DDC3ABD8B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97CB0B4-0A24-4DE4-A8A4-3DDC3ABD8B1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1ACAF6A4-6533-4279-85AD-0C1B2BF65C3D}
+		SolutionGuid = {C707E791-38E7-453F-B7FD-359448D40D61}
 	EndGlobalSection
 EndGlobal
