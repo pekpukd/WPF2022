@@ -1,4 +1,4 @@
-total 124
+total 100
 1	Good	drwxr-xr-x 1 osipov 197609     0 Mar 20 14:47 00 014 SayHello/
 2	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 01 020 InheritTheApp/
 3	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 16:41 01 022 ThrowWinPatry/
@@ -23,26 +23,30 @@ total 124
 22	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 04 092 EditSomeText/
 23	Good	drwxr-xr-x 1 osipov 197609     0 Apr 19 21:52 05 103 ScrollFiftyButtons.cs/
 24	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:23 05 106 DesignAButton/
-	drwxr-xr-x 1 osipov 197609     0 Apr 19 21:49 05 110 ExploreDirectories/
-25	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 06 115 DockAroundTheBlock/
-26	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:23 06 127 SpanTheCells/
-27	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 06 133 SplitTheClient/
-28 No au	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 07 141 PaintTheButton.cs/
-29	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 08 150 SetFontSizeProperty/
+25	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 05 110 ExploreDirectories/
+26	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 06 115 DockAroundTheBlock/
+27	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 06 117 MeetTheDockers/
+28	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:23 06 127 SpanTheCells/
+29	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 06 130 SplitNine/
+30	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 06 133 SplitTheClient/
+31	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:02 07 141 PaintTheButton.cs/
+32	No cm	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 08 150 SetFontSizeProperty/
 	drwxr-xr-x 1 osipov 197609     0 May 10 18:51 08 161 SetSpaceProperty/
-	drwxr-xr-x 1 osipov 197609     0 Apr 19 21:49 09 169 ExamineRoutedEvents/
-30	Good	drwxr-xr-x 1 osipov 197609     0 May 10 21:54 11 228 BuildButtonFactory/
-31	No au	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 11 241 SelectColor/
-32	Good	drwxr-xr-x 1 osipov 197609     0 May 17 20:15 12 246 DuplicateUniformGrid/
-33	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 13 268 ListColorNames/
-34	Good	drwxr-xr-x 1 osipov 197609     0 May 10 22:27 14 299 PeruseTheMenu/
-35	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 14 317 CommandTheMenu/
-36	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 19 482 LoadXamlResource/
+33	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 09 169 ExamineRoutedEvents/
+34	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 09 180 DrawCircles/
+35	Good	drwxr-xr-x 1 osipov 197609     0 May 10 21:54 11 228 BuildButtonFactory/
+36	No au	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 11 241 SelectColor/
+37	Good	drwxr-xr-x 1 osipov 197609     0 May 17 20:15 12 246 DuplicateUniformGrid/
+38	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 13 268 ListColorNames/
+39	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 13 279 ListColorShapes/
+40	Good	drwxr-xr-x 1 osipov 197609     0 May 10 22:27 14 299 PeruseTheMenu/
+41	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 14 317 CommandTheMenu/
+42	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 19 482 LoadXamlResource/
+43	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 19 485 LoadXamlFile/
 	drwxr-xr-x 1 osipov 197609     0 May 10 18:51 19 491 CompileXamlWindow/
-37	Bad	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 28 828 Text Geometry/
-38	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 30 867 EnlargeButtonWithTimer/
-39	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 30 869 EnlargeButtonWithAnimation/
--rw-r--r-- 1 osipov 197609 21181 May 17 21:42 WPF2022.sln
--rw-r--r-- 1 osipov 197609 21412 May 17 21:32 WPF2022.sln.orig
--rw-r--r-- 1 osipov 197609  3055 May 17 21:21 index.txt
--rw-r--r-- 1 osipov 197609     0 May 17 21:46 indexn.txt
+44	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 23 627 BindLabelToScrollBar/
+45	Bad	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 28 828 Text Geometry/
+46	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 30 867 EnlargeButtonWithTimer/
+47	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 30 869 EnlargeButtonWithAnimation/
+-rw-r--r-- 1 osipov 197609 22987 May 17 23:39 WPF2022.sln
+-rw-r--r-- 1 osipov 197609  3605 May 17 23:02 index.txt
