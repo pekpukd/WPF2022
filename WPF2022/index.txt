@@ -1,4 +1,4 @@
-total 80
+total 84
 1	Good	drwxr-xr-x 1 osipov 197609     0 Mar 20 14:47 00 014 SayHello/
 2	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 01 020 InheritTheApp/
 3	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 16:41 01 022 ThrowWinPatry/
@@ -18,9 +18,9 @@ total 80
 13	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 16:41 03 071 RenderTheGraphic/
 14	Good	drwxr-xr-x 1 osipov 197609     0 Apr 10 21:39 04 073 ClickTheButton/
 15	Good	drwxr-xr-x 1 osipov 197609     0 May 10 18:51 04 078 ImageTheButton/
-drwxr-xr-x 1 osipov 197609     0 Apr 26 20:13 04 079 ImageTheButton.cs/
+	drwxr-xr-x 1 osipov 197609     0 Apr 26 20:13 04 079 ImageTheButton.cs/
 16	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 16:41 04 085 BindTheButton/
-drwxr-xr-x 1 osipov 197609     0 Apr 26 20:13 04 092 EditSomeText/
+	drwxr-xr-x 1 osipov 197609     0 Apr 26 20:13 04 092 EditSomeText/
 17	Good	drwxr-xr-x 1 osipov 197609     0 Apr 19 21:52 05 103 ScrollFiftyButtons.cs/
 18	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:23 05 106 DesignAButton/
 	drwxr-xr-x 1 osipov 197609     0 Apr 19 21:49 05 110 ExploreDirectories/
@@ -33,9 +33,10 @@ drwxr-xr-x 1 osipov 197609     0 Apr 26 20:13 04 092 EditSomeText/
 	drwxr-xr-x 1 osipov 197609     0 Apr 19 21:49 09 169 ExamineRoutedEvents/
 22	Good	drwxr-xr-x 1 osipov 197609     0 May 10 21:54 11 228 BuildButtonFactory/
 	drwxr-xr-x 1 osipov 197609     0 Apr 26 20:13 11 241 SelectColor/
+23	Good	drwxr-xr-x 1 osipov 197609     0 May 17 20:15 12 246 DuplicateUniformGrid/
 	drwxr-xr-x 1 osipov 197609     0 Apr 26 20:13 13 268 ListColorNames/
-23	Good	drwxr-xr-x 1 osipov 197609     0 May 10 21:54 14 299 PeruseTheMenu/
+24	Good	drwxr-xr-x 1 osipov 197609     0 May 10 22:27 14 299 PeruseTheMenu/
 	drwxr-xr-x 1 osipov 197609     0 May 10 18:51 19 491 CompileXamlWindow/
-	-rw-r--r-- 1 osipov 197609 12870 May 10 21:54 WPF2022.sln
-	-rw-r--r-- 1 osipov 197609     0 May 10 21:59 index.txt
-	-rw-r--r-- 1 osipov 197609  2925 May 10 21:56 index20220510.txt
+-rw-r--r-- 1 osipov 197609 13446 May 17 20:21 WPF2022.sln
+-rw-r--r-- 1 osipov 197609     0 May 17 20:26 index-new.txt
+-rw-r--r-- 1 osipov 197609  2977 May 10 22:27 index.txt

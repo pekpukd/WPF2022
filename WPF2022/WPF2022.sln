@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31919.166
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32428.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00 014 SayHello", "00 014 SayHello\00 014 SayHello.csproj", "{793284FA-333A-4836-8096-314E5F91385F}"
 EndProject
@@ -25,18 +25,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 025 InheritTheApp", "01 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 085 BindTheButton", "04 085 BindTheButton\04 085 BindTheButton.csproj", "{90132774-2BB8-40A1-B7E1-2FA53829872F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 046 AdjustTheGradient", "02 046 AdjustTheGradient\02 046 AdjustTheGradient.csproj", "{D81C0D55-8BE4-4C97-9BFD-D01E50F92E55}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 054 DisplaySomeText", "03 054 DisplaySomeText\03 054 DisplaySomeText.csproj", "{3E5DCB7F-922D-4357-933E-D2944AABDF2B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 103 ScrollFiftyButtons", "05 103 ScrollFiftyButtons.cs\05 103 ScrollFiftyButtons.cs\05 103 ScrollFiftyButtons.csproj", "{9562E1EB-A841-4B5D-9C08-A7666FF48899}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 020 InheritTheApp", "D:\01 020 InheritTheApp\01 020 InheritTheApp\01 020 InheritTheApp.csproj", "{EADAC97F-250F-4401-B854-6DE06451D7C3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 246 DuplicateUniformGrid", "12 246 DuplicateUniformGrid\12 246 DuplicateUniformGrid.csproj", "{EF13FF3C-B989-45A3-BE67-99E4F35F99D7}"
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 020 InheritTheApp", "01 020 InheritTheApp\01 020 InheritTheApp.csproj", "{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 046 AdjustTheGradient", "02 046 AdjustTheGradient\02 046 AdjustTheGradient.csproj", "{D81C0D55-8BE4-4C97-9BFD-D01E50F92E55}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 133 SplitTheClient", "06 133 SplitTheClient\06 133 SplitTheClient.csproj", "{4B48C198-0129-4923-8097-78F8AC357E47}"
 EndProject
@@ -48,15 +39,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 061 ShowMyFace", "03 061
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 078 ImageTheButton", "04 078 ImageTheButton\04 078 ImageTheButton.csproj", "{9C698B21-F074-4E5A-807E-25B1DF43C6EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 054 DisplaySomeText", "03 054 DisplaySomeText\03 054 DisplaySomeText.csproj", "{3E5DCB7F-922D-4357-933E-D2944AABDF2B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 103 ScrollFiftyButtons.cs", "05 103 ScrollFiftyButtons.cs\05 103 ScrollFiftyButtons.cs\05 103 ScrollFiftyButtons.cs.csproj", "{9562E1EB-A841-4B5D-9C08-A7666FF48899}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 106 DesignAButton", "05 106 DesignAButton\05 106 DesignAButton.csproj", "{32918C01-7436-4799-A94C-BBAFF1A582BA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 127 SpanTheCells", "06 127 SpanTheCells\06 127 SpanTheCells.csproj", "{3A716852-860F-47DC-A62F-80933EF8FFAA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 150 SetFontSizeProperty", "08 150 SetFontSizeProperty\08 150 SetFontSizeProperty.csproj", "{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 020 InheritTheApp", "01 020 InheritTheApp\01 020 InheritTheApp.csproj", "{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 046 AdjustTheGradient", "02 046 AdjustTheGradient\02 046 AdjustTheGradient.csproj", "{D81C0D55-8BE4-4C97-9BFD-D01E50F92E55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 054 DisplaySomeText", "03 054 DisplaySomeText\03 054 DisplaySomeText.csproj", "{3E5DCB7F-922D-4357-933E-D2944AABDF2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -108,26 +101,10 @@ Global
 		{90132774-2BB8-40A1-B7E1-2FA53829872F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90132774-2BB8-40A1-B7E1-2FA53829872F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90132774-2BB8-40A1-B7E1-2FA53829872F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D81C0D55-8BE4-4C97-9BFD-D01E50F92E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D81C0D55-8BE4-4C97-9BFD-D01E50F92E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D81C0D55-8BE4-4C97-9BFD-D01E50F92E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D81C0D55-8BE4-4C97-9BFD-D01E50F92E55}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9562E1EB-A841-4B5D-9C08-A7666FF48899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9562E1EB-A841-4B5D-9C08-A7666FF48899}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9562E1EB-A841-4B5D-9C08-A7666FF48899}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9562E1EB-A841-4B5D-9C08-A7666FF48899}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EADAC97F-250F-4401-B854-6DE06451D7C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EADAC97F-250F-4401-B854-6DE06451D7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EADAC97F-250F-4401-B854-6DE06451D7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EADAC97F-250F-4401-B854-6DE06451D7C3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EF13FF3C-B989-45A3-BE67-99E4F35F99D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EF13FF3C-B989-45A3-BE67-99E4F35F99D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF13FF3C-B989-45A3-BE67-99E4F35F99D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -152,14 +129,6 @@ Global
 		{9C698B21-F074-4E5A-807E-25B1DF43C6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C698B21-F074-4E5A-807E-25B1DF43C6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C698B21-F074-4E5A-807E-25B1DF43C6EE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9562E1EB-A841-4B5D-9C08-A7666FF48899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9562E1EB-A841-4B5D-9C08-A7666FF48899}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9562E1EB-A841-4B5D-9C08-A7666FF48899}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9562E1EB-A841-4B5D-9C08-A7666FF48899}.Release|Any CPU.Build.0 = Release|Any CPU
 		{32918C01-7436-4799-A94C-BBAFF1A582BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{32918C01-7436-4799-A94C-BBAFF1A582BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32918C01-7436-4799-A94C-BBAFF1A582BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -172,6 +141,18 @@ Global
 		{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F04A2EC-ADF7-4CEB-B03A-2C6921136C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D81C0D55-8BE4-4C97-9BFD-D01E50F92E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D81C0D55-8BE4-4C97-9BFD-D01E50F92E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D81C0D55-8BE4-4C97-9BFD-D01E50F92E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D81C0D55-8BE4-4C97-9BFD-D01E50F92E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5DCB7F-922D-4357-933E-D2944AABDF2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
