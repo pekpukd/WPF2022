@@ -1,42 +1,48 @@
-total 84
+total 124
 1	Good	drwxr-xr-x 1 osipov 197609     0 Mar 20 14:47 00 014 SayHello/
 2	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 01 020 InheritTheApp/
 3	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 16:41 01 022 ThrowWinPatry/
 4	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 16:41 01 025 InheritTheApp/
-	drwxr-xr-x 1 osipov 197609     0 Apr 26 20:13 01 029 GrowAndShrink/
-5	Good	drwxr-xr-x 1 osipov 197609     0 Mar 29 19:35 01 031 TypeYourTitle/
-6	Good	drwxr-xr-x 1 osipov 197609     0 Mar 29 19:33 02 039 FlipThroughTheBrushes/
-7	Good	drwxr-xr-x 1 osipov 197609     0 Apr 10 21:39 02 042 GradiateTheBrush/
-8	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 17:03 02 046 AdjustTheGradient/
-	drwxr-xr-x 1 osipov 197609     0 Apr 26 20:13 02 047 FollowTheRainbow/
-9	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 16:41 02 052 RotateTheGradientOrigin/
-10	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 03 054 DisplaySomeText/
-	drwxr-xr-x 1 osipov 197609     0 Apr 26 20:13 03 058 RecordKeystrokes/
-11	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:23 03 061 ShowMyFace/
-12	Good	drwxr-xr-x 1 osipov 197609     0 Mar 29 19:33 03 066 FormatTheText/
-	drwxr-xr-x 1 osipov 197609     0 Apr 26 20:13 03 068 ToggleBoldAndItalic/
-13	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 16:41 03 071 RenderTheGraphic/
-14	Good	drwxr-xr-x 1 osipov 197609     0 Apr 10 21:39 04 073 ClickTheButton/
-15	Good	drwxr-xr-x 1 osipov 197609     0 May 10 18:51 04 078 ImageTheButton/
-	drwxr-xr-x 1 osipov 197609     0 Apr 26 20:13 04 079 ImageTheButton.cs/
-16	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 16:41 04 085 BindTheButton/
-	drwxr-xr-x 1 osipov 197609     0 Apr 26 20:13 04 092 EditSomeText/
-17	Good	drwxr-xr-x 1 osipov 197609     0 Apr 19 21:52 05 103 ScrollFiftyButtons.cs/
-18	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:23 05 106 DesignAButton/
+5	No cm	drwxr-xr-x 1 osipov 197609     0 Apr 26 20:13 01 029 GrowAndShrink/
+6	Good	drwxr-xr-x 1 osipov 197609     0 Mar 29 19:35 01 031 TypeYourTitle/
+7	Good	drwxr-xr-x 1 osipov 197609     0 Mar 29 19:33 02 039 FlipThroughTheBrushes/
+8	Good	drwxr-xr-x 1 osipov 197609     0 Apr 10 21:39 02 042 GradiateTheBrush/
+9	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 17:03 02 046 AdjustTheGradient/
+10	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 02 047 FollowTheRainbow/
+11	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 16:41 02 052 RotateTheGradientOrigin/
+12	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 03 054 DisplaySomeText/
+13	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 03 058 RecordKeystrokes/
+14	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:23 03 061 ShowMyFace/
+15	Good	drwxr-xr-x 1 osipov 197609     0 Mar 29 19:33 03 066 FormatTheText/
+16	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 03 068 ToggleBoldAndItalic/
+17	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 16:41 03 071 RenderTheGraphic/
+18	Good	drwxr-xr-x 1 osipov 197609     0 Apr 10 21:39 04 073 ClickTheButton/
+19	Good	drwxr-xr-x 1 osipov 197609     0 May 10 18:51 04 078 ImageTheButton/
+20	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 04 079 ImageTheButton.cs/
+21	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 16:41 04 085 BindTheButton/
+22	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 04 092 EditSomeText/
+23	Good	drwxr-xr-x 1 osipov 197609     0 Apr 19 21:52 05 103 ScrollFiftyButtons.cs/
+24	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:23 05 106 DesignAButton/
 	drwxr-xr-x 1 osipov 197609     0 Apr 19 21:49 05 110 ExploreDirectories/
-	drwxr-xr-x 1 osipov 197609     0 Apr 26 20:13 06 115 DockAroundTheBlock/
-19	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:23 06 127 SpanTheCells/
-20	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 06 133 SplitTheClient/
-	drwxr-xr-x 1 osipov 197609     0 Apr 26 20:13 07 141 PaintTheButton.cs/
-21	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 08 150 SetFontSizeProperty/
+25	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 06 115 DockAroundTheBlock/
+26	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:23 06 127 SpanTheCells/
+27	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 06 133 SplitTheClient/
+28 No au	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 07 141 PaintTheButton.cs/
+29	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 08 150 SetFontSizeProperty/
 	drwxr-xr-x 1 osipov 197609     0 May 10 18:51 08 161 SetSpaceProperty/
 	drwxr-xr-x 1 osipov 197609     0 Apr 19 21:49 09 169 ExamineRoutedEvents/
-22	Good	drwxr-xr-x 1 osipov 197609     0 May 10 21:54 11 228 BuildButtonFactory/
-	drwxr-xr-x 1 osipov 197609     0 Apr 26 20:13 11 241 SelectColor/
-23	Good	drwxr-xr-x 1 osipov 197609     0 May 17 20:15 12 246 DuplicateUniformGrid/
-	drwxr-xr-x 1 osipov 197609     0 Apr 26 20:13 13 268 ListColorNames/
-24	Good	drwxr-xr-x 1 osipov 197609     0 May 10 22:27 14 299 PeruseTheMenu/
+30	Good	drwxr-xr-x 1 osipov 197609     0 May 10 21:54 11 228 BuildButtonFactory/
+31	No au	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 11 241 SelectColor/
+32	Good	drwxr-xr-x 1 osipov 197609     0 May 17 20:15 12 246 DuplicateUniformGrid/
+33	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 13 268 ListColorNames/
+34	Good	drwxr-xr-x 1 osipov 197609     0 May 10 22:27 14 299 PeruseTheMenu/
+35	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 14 317 CommandTheMenu/
+36	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 19 482 LoadXamlResource/
 	drwxr-xr-x 1 osipov 197609     0 May 10 18:51 19 491 CompileXamlWindow/
--rw-r--r-- 1 osipov 197609 13446 May 17 20:21 WPF2022.sln
--rw-r--r-- 1 osipov 197609     0 May 17 20:26 index-new.txt
--rw-r--r-- 1 osipov 197609  2977 May 10 22:27 index.txt
+37	Bad	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 28 828 Text Geometry/
+38	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 30 867 EnlargeButtonWithTimer/
+39	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 30 869 EnlargeButtonWithAnimation/
+-rw-r--r-- 1 osipov 197609 21181 May 17 21:42 WPF2022.sln
+-rw-r--r-- 1 osipov 197609 21412 May 17 21:32 WPF2022.sln.orig
+-rw-r--r-- 1 osipov 197609  3055 May 17 21:21 index.txt
+-rw-r--r-- 1 osipov 197609     0 May 17 21:46 indexn.txt
