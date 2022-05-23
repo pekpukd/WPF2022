@@ -6,8 +6,10 @@ using System.Windows.Threading;
 namespace Petzold.EnlargeButtonWithTimer { 
     public class EnlargeButtonWithTimer : Window 
     {
-        const double initFontSize = 12;
-        const double maxFontSize = 48;
+        // исходный размер шрифта кнопки 12 
+        const double initFontSize = 12; 
+        // максимальный размер шрифта кнопки 48
+        const double maxFontSize = 48; 
 
         Button btn;
 
@@ -32,7 +34,10 @@ namespace Petzold.EnlargeButtonWithTimer {
             btn.Click += ButtonOnClick; Content = btn;
         } 
         void ButtonOnClick(object sender, RoutedEventArgs args) 
-        { 
+        {
+            /*при щелчке создает объект DispatcherTimer, который 
+             *каждую десятую долю секунды 
+             *генерирует события Tick*/
             DispatcherTimer tmr = new DispatcherTimer();
 
             tmr.Interval = TimeSpan.FromSeconds(0.1);
@@ -40,13 +45,15 @@ namespace Petzold.EnlargeButtonWithTimer {
             tmr.Tick += TimerOnTick; tmr.Start();
         } 
         void TimerOnTick(object sender, EventArgs args) 
-        { 
+        {
+            // увеличивает FontSize на 2 едицины каждую 0.1 секунды
             btn.FontSize += 2;
-
+            // если размер кнопки достигает 48 единиц
             if (btn.FontSize >= maxFontSize) 
-            { 
+            {
+                // кнопка восстанавливается в исходном размере
                 btn.FontSize = initFontSize;
-
+                // таймер останавливается
                 (sender as DispatcherTimer).Stop();
             } 
         } 
