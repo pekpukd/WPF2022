@@ -1,4 +1,4 @@
-total 100
+total 104
 1	Good	drwxr-xr-x 1 osipov 197609     0 Mar 20 14:47 00 014 SayHello/
 2	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 01 020 InheritTheApp/
 3	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 16:41 01 022 ThrowWinPatry/
@@ -31,22 +31,22 @@ total 100
 30	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 06 133 SplitTheClient/
 31	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:02 07 141 PaintTheButton.cs/
 32	No cm	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 08 150 SetFontSizeProperty/
-	drwxr-xr-x 1 osipov 197609     0 May 10 18:51 08 161 SetSpaceProperty/
-33	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 09 169 ExamineRoutedEvents/
-34	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 09 180 DrawCircles/
-35	Good	drwxr-xr-x 1 osipov 197609     0 May 10 21:54 11 228 BuildButtonFactory/
-36	No au	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 11 241 SelectColor/
-37	Good	drwxr-xr-x 1 osipov 197609     0 May 17 20:15 12 246 DuplicateUniformGrid/
-38	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 13 268 ListColorNames/
-39	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 13 279 ListColorShapes/
-40	Good	drwxr-xr-x 1 osipov 197609     0 May 10 22:27 14 299 PeruseTheMenu/
-41	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 14 317 CommandTheMenu/
-42	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 19 482 LoadXamlResource/
-43	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 19 485 LoadXamlFile/
-	drwxr-xr-x 1 osipov 197609     0 May 10 18:51 19 491 CompileXamlWindow/
-44	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 23 627 BindLabelToScrollBar/
-45	Bad	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 28 828 Text Geometry/
-46	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 30 867 EnlargeButtonWithTimer/
-47	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 30 869 EnlargeButtonWithAnimation/
--rw-r--r-- 1 osipov 197609 22987 May 17 23:39 WPF2022.sln
--rw-r--r-- 1 osipov 197609  3605 May 17 23:02 index.txt
+33	Bad	drwxr-xr-x 1 osipov 197609     0 May 24 23:26 08 161 SetSpaceProperty/
+34	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 09 169 ExamineRoutedEvents/
+35	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 09 180 DrawCircles/
+36	Good	drwxr-xr-x 1 osipov 197609     0 May 10 21:54 11 228 BuildButtonFactory/
+37	No au	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 11 241 SelectColor/
+38	Good	drwxr-xr-x 1 osipov 197609     0 May 17 20:15 12 246 DuplicateUniformGrid/
+39	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 13 268 ListColorNames/
+40	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 13 279 ListColorShapes/
+41	Good	drwxr-xr-x 1 osipov 197609     0 May 10 22:27 14 299 PeruseTheMenu/
+42	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 14 317 CommandTheMenu/
+43	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 19 482 LoadXamlResource/
+44	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 19 485 LoadXamlFile/
+45	Good	drwxr-xr-x 1 osipov 197609     0 May 24 23:26 19 491 CompileXamlWindow/
+46	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 23 627 BindLabelToScrollBar/
+47	Bad	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 28 828 Text Geometry/
+48	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 30 867 EnlargeButtonWithTimer/
+49	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 30 869 EnlargeButtonWithAnimation/
+-rw-r--r-- 1 osipov 197609 26530 May 24 23:26 WPF2022.sln
+-rw-r--r-- 1 osipov 197609     0 May 24 23:31 index.txt
