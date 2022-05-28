@@ -1,4 +1,4 @@
-total 108
+total 120
 1	Good	drwxr-xr-x 1 osipov 197609     0 Mar 20 14:47 00 014 SayHello/
 2	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 01 020 InheritTheApp/
 3	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 16:41 01 022 ThrowWinPatry/
@@ -39,16 +39,19 @@ total 108
 38	Good	drwxr-xr-x 1 osipov 197609     0 May 17 20:15 12 246 DuplicateUniformGrid/
 39	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 13 268 ListColorNames/
 40	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 13 279 ListColorShapes/
-41	Good	drwxr-xr-x 1 osipov 197609     0 May 10 22:27 14 299 PeruseTheMenu/
-42	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 14 317 CommandTheMenu/
-43	Good	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 19 482 LoadXamlResource/
-44	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 19 485 LoadXamlFile/
-45	Good	drwxr-xr-x 1 osipov 197609     0 May 24 23:26 19 491 CompileXamlWindow/
-46	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 23 627 BindLabelToScrollBar/
-47	Bad	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 28 828 Text Geometry/
-48	Good	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 30 867 EnlargeButtonWithTimer/
-49	Good	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 30 869 EnlargeButtonWithAnimation/
-50	Part drwxr-xr-x 1 osipov 197609     0 May 24 23:54 30 895 RenderTheAnimation/
--rw-r--r-- 1 osipov 197609 26530 May 25 00:02 WPF2022.sln
--rw-r--r-- 1 osipov 197609  3971 May 25 00:02 index.txt
--rw-r--r-- 1 osipov 197609     0 May 25 00:06 indexn.txt
+41	Good	drwxr-xr-x 1 osipov 197609     0 May 28 15:44 13 280 ListColoredLabels/
+42	Good	drwxr-xr-x 1 osipov 197609     0 May 28 15:44 13 282 ListWithListBoxItems/
+43	Good	drwxr-xr-x 1 osipov 197609     0 May 10 22:27 14 299 PeruseTheMenu/
+44	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 14 317 CommandTheMenu/
+45	Good	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 19 482 LoadXamlResource/
+46	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 19 485 LoadXamlFile/
+47	Good	drwxr-xr-x 1 osipov 197609     0 May 24 23:26 19 491 CompileXamlWindow/
+48	Good	drwxr-xr-x 1 osipov 197609     0 May 28 15:44 21 563 MyResources/
+49	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 23 627 BindLabelToScrollBar/
+50	Good	drwxr-xr-x 1 osipov 197609     0 May 28 15:44 28 806 FourOverlappingCircles/
+51	Bad	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 28 828 Text Geometry/
+52	Good	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 30 867 EnlargeButtonWithTimer/
+53	Good	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 30 869 EnlargeButtonWithAnimation/
+54	Part drwxr-xr-x 1 osipov 197609     0 May 24 23:54 30 895 RenderTheAnimation/
+-rw-r--r-- 1 osipov 197609 29270 May 28 16:12 WPF2022.sln
+-rw-r--r-- 1 osipov 197609     0 May 28 16:17 index.txt
