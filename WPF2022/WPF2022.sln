@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31919.166
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00 014 SayHello", "00 014 SayHello\00 014 SayHello.csproj", "{793284FA-333A-4836-8096-314E5F91385F}"
 EndProject
@@ -100,6 +100,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 078 ImageTheButton", "04 078 ImageTheButton\04 078 ImageTheButton.csproj", "{70BC0796-C29F-4581-A6A7-3A302AF094EF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 150 SetFontSizeProperty", "08 150 SetFontSizeProperty\08 150 SetFontSizeProperty.csproj", "{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24 660 ButtonWithLocalStyle", "24 660 661 662\24 660 ButtonWithLocalStyle.csproj", "{0502F1FF-9C0D-47E6-B9C8-D7C53A77A6FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24 661 StyleWithMultipleButtons", "24 661\24 661 StyleWithMultipleButtons.csproj", "{F37BEC5E-0AC4-4997-A354-406EDD3B3BD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24 661-2 StyleWithMultipleElements", "StyleWithMultipleElements\24 661-2 StyleWithMultipleElements.csproj", "{765D3F27-45CC-42FC-BE2F-BE65F2084852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24 662-3 StylesWithSameKeys", "24 662-3 StylesWithSameKeys\24 662-3 StylesWithSameKeys.csproj", "{7163A095-4C6F-4765-AC70-A1EDE057124E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -303,6 +311,22 @@ Global
 		{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED61BF65-D936-4DFD-A039-8C71F0A9EAF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0502F1FF-9C0D-47E6-B9C8-D7C53A77A6FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0502F1FF-9C0D-47E6-B9C8-D7C53A77A6FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0502F1FF-9C0D-47E6-B9C8-D7C53A77A6FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0502F1FF-9C0D-47E6-B9C8-D7C53A77A6FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F37BEC5E-0AC4-4997-A354-406EDD3B3BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37BEC5E-0AC4-4997-A354-406EDD3B3BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37BEC5E-0AC4-4997-A354-406EDD3B3BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37BEC5E-0AC4-4997-A354-406EDD3B3BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{765D3F27-45CC-42FC-BE2F-BE65F2084852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765D3F27-45CC-42FC-BE2F-BE65F2084852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765D3F27-45CC-42FC-BE2F-BE65F2084852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{765D3F27-45CC-42FC-BE2F-BE65F2084852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7163A095-4C6F-4765-AC70-A1EDE057124E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7163A095-4C6F-4765-AC70-A1EDE057124E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7163A095-4C6F-4765-AC70-A1EDE057124E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7163A095-4C6F-4765-AC70-A1EDE057124E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
