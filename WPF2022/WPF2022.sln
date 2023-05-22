@@ -152,6 +152,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23 631 BindingWithDataConte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24 661 StyleWithMultipleElements", "24 661 StyleWithMultipleElements\24 661 StyleWithMultipleElements.csproj", "{1FF6080A-F1F3-4B0E-899A-D3DB2AE7153E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25 690 ToggleSwitch", "25 690 ToggleSwitch\25 690 ToggleSwitch.csproj", "{13F37FD7-E33B-4E54-9795-0737772C216A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -446,6 +448,10 @@ Global
 		{1FF6080A-F1F3-4B0E-899A-D3DB2AE7153E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FF6080A-F1F3-4B0E-899A-D3DB2AE7153E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FF6080A-F1F3-4B0E-899A-D3DB2AE7153E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13F37FD7-E33B-4E54-9795-0737772C216A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F37FD7-E33B-4E54-9795-0737772C216A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F37FD7-E33B-4E54-9795-0737772C216A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F37FD7-E33B-4E54-9795-0737772C216A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
