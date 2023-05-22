@@ -160,6 +160,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27 786 SelfPortraitSansGlas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28 816 FigureWithArcs", "28 816 FigureWithArcs\28 816 FigureWithArcs.csproj", "{CBC2DCD0-CA95-4588-B462-DCEF638A3192}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29 858 EmpiricalTiltedTextShadow", "29 858 EmpiricalTiltedTextShadow\29 858 EmpiricalTiltedTextShadow.csproj", "{51542867-CFFF-47C9-92AC-972046723DA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -470,6 +472,10 @@ Global
 		{CBC2DCD0-CA95-4588-B462-DCEF638A3192}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBC2DCD0-CA95-4588-B462-DCEF638A3192}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBC2DCD0-CA95-4588-B462-DCEF638A3192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51542867-CFFF-47C9-92AC-972046723DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51542867-CFFF-47C9-92AC-972046723DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51542867-CFFF-47C9-92AC-972046723DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51542867-CFFF-47C9-92AC-972046723DA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
