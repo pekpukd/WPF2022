@@ -146,6 +146,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20 506 XamlCruncherSettings
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21 550 MyApp", "21 550 MyApp\21 550 MyApp.csproj", "{6BDC2BCA-8C13-4560-ABFF-73AE64D63065}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22 597 Vitals", "22 597 Vitals\22 597 Vitals.csproj", "{1BAF269F-118E-48F7-A01F-C54A6820D9A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -428,6 +430,10 @@ Global
 		{6BDC2BCA-8C13-4560-ABFF-73AE64D63065}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BDC2BCA-8C13-4560-ABFF-73AE64D63065}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BDC2BCA-8C13-4560-ABFF-73AE64D63065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BAF269F-118E-48F7-A01F-C54A6820D9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BAF269F-118E-48F7-A01F-C54A6820D9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BAF269F-118E-48F7-A01F-C54A6820D9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BAF269F-118E-48F7-A01F-C54A6820D9A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
