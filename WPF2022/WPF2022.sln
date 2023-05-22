@@ -156,6 +156,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25 690 ToggleSwitch", "25 6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26 756 NavigationBar", "26 756 NavigationBar\26 756 NavigationBar.csproj", "{09DA7F87-CE42-48D6-A366-DAC1D73DE428}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27 786 SelfPortraitSansGlasses", "27 786 SelfPortraitSansGlasses\27 786 SelfPortraitSansGlasses.csproj", "{4A1589DA-4E97-48E6-97BF-DCB284ADACFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -458,6 +460,10 @@ Global
 		{09DA7F87-CE42-48D6-A366-DAC1D73DE428}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09DA7F87-CE42-48D6-A366-DAC1D73DE428}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09DA7F87-CE42-48D6-A366-DAC1D73DE428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1589DA-4E97-48E6-97BF-DCB284ADACFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1589DA-4E97-48E6-97BF-DCB284ADACFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1589DA-4E97-48E6-97BF-DCB284ADACFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1589DA-4E97-48E6-97BF-DCB284ADACFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
