@@ -142,6 +142,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 303 CheckTheWindowStyle"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19 478 XamlStackPanel", "19 478 XamlStackPanel\19 478 XamlStackPanel.csproj", "{1A492B69-DADD-4BEB-A1B8-1CC47B5BD851}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20 506 XamlCruncherSettings", "20 506 XamlCruncherSettings\20 506 XamlCruncherSettings.csproj", "{97CAEF65-B899-4D80-8153-1831B6887440}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -416,6 +418,10 @@ Global
 		{1A492B69-DADD-4BEB-A1B8-1CC47B5BD851}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A492B69-DADD-4BEB-A1B8-1CC47B5BD851}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A492B69-DADD-4BEB-A1B8-1CC47B5BD851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97CAEF65-B899-4D80-8153-1831B6887440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CAEF65-B899-4D80-8153-1831B6887440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CAEF65-B899-4D80-8153-1831B6887440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CAEF65-B899-4D80-8153-1831B6887440}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
