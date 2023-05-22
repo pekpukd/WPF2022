@@ -4,18 +4,19 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Markup;
 
-namespace Petzold.LoadXamlResource 
-{ 
+namespace Petzold.LoadXamlResource
+{
     public class LoadXamlResource : Window // создание класса LoadXamlResource, наследника Window
     {
-        [STAThread] // атрибут, который показывает, что управление программой осуществляется одним главным потоком
+        [STAThread] // главным потоком
         public static void Main() // точка входа выполняемой программы
-        { 
+        {
             Application app = new Application(); // создание нового приложения 
             app.Run(new LoadXamlResource()); // запуск приложения
         }
-        public LoadXamlResource() { 
-            Title = "Load Xaml Resource";  // заголовок окна
+        public LoadXamlResource()
+        {
+            Title = "Load Xaml Resource";  // заголовок
 
             Uri uri = new Uri("/LoadXamlResource.xml", UriKind.Relative); // создание относительного uri
 
@@ -25,11 +26,11 @@ namespace Petzold.LoadXamlResource
             Button btn = el.FindName("MyButton") as Button;
 
             if (btn != null) btn.Click += ButtonOnClick;
-        } 
+        }
         // обработчик события onClick 
-        void ButtonOnClick(object sender, RoutedEventArgs args) 
-        { 
+        void ButtonOnClick(object sender, RoutedEventArgs args)
+        {
             MessageBox.Show("The button labeled '" + (args.Source as Button).Content + "' has been clicked"); // вывод сообщения при нажатии на кнопку
-        } 
-    } 
+        }
+    }
 }
