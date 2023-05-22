@@ -15,24 +15,23 @@ namespace Petzold.BuildButtonFactory
         }
         public BuildButtonFactory()
         {
-            Title = "Build Button Factory";
-
-            // Создание объекта ControlTemplate для Button.
+            Title = "Build Button Factory"; // заголовок
             ControlTemplate template = new ControlTemplate(typeof(Button));
 
-            // Создание объекта FrameworkElementFactory  для Border.
+
             FrameworkElementFactory factoryBorder =
-                new FrameworkElementFactory(typeof(Border));
+                new FrameworkElementFactory(typeof(Border)); // Создание объекта FrameworkElementFactory 
 
-            // Назначение имени для последующих ссылок.
-            factoryBorder.Name = "border";
 
-            // Задание некоторых свойст по умолчанию.
+            factoryBorder.Name = "border"; // имя строк  для последующих ссылок.
+
+
             factoryBorder.SetValue(Border.BorderBrushProperty, Brushes.Red); //цвет рамки
             factoryBorder.SetValue(Border.BorderThicknessProperty,
                 new Thickness(3)); //толщина рамки
             factoryBorder.SetValue(Border.BackgroundProperty,
                 SystemColors.ControlLightBrush);
+            // Задание некоторых свойст
 
             // Создание объекта FrameworkElementFactory  для             
             // ContentPresenter.
@@ -53,7 +52,7 @@ namespace Petzold.BuildButtonFactory
             // Назначение ContentPresenter дочерним объектом Border.
             factoryBorder.AppendChild(factoryContent);
 
-            // Border назначается корневым узлом визуального дерева.
+
             template.VisualTree = factoryBorder;
 
             // Определение триггера для условия  IsMouseOver=true.
@@ -95,22 +94,21 @@ namespace Petzold.BuildButtonFactory
             // Включение объекта Setter в коллекцию Setters триггера.
             trig.Setters.Add(set);
 
-            // Включение триггера в шаблон.
-            template.Triggers.Add(trig);
 
-            // Создание объекта Button.
-            Button btn = new Button();
+            template.Triggers.Add(trig); // Включение триггера в шаблон
 
-            // Назначение шаблона.
-            btn.Template = template;
+
+            Button btn = new Button(); // Создание объекта Button.
+
+
+            btn.Template = template; // шаблон
 
             // Другие свойства определяются обычным образом.
             btn.Content = "Кнопка с пользовательским шаблоном";
             btn.Padding = new Thickness(20);
             btn.FontSize = 48; //размер шрифта
-            btn.HorizontalAlignment = HorizontalAlignment.Center; //кнопка выравнена по центру по горизонтали
-                                                                  //и по вертикали
-            btn.VerticalAlignment = VerticalAlignment.Center; 
+            btn.HorizontalAlignment = HorizontalAlignment.Center; //кнопка выравнена по центру по горизонтал и по вертикали
+            btn.VerticalAlignment = VerticalAlignment.Center;
             btn.Click += ButtonOnClick;
             Content = btn;
         }
