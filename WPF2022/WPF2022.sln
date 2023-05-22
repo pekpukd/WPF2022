@@ -144,6 +144,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19 478 XamlStackPanel", "19
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20 506 XamlCruncherSettings", "20 506 XamlCruncherSettings\20 506 XamlCruncherSettings.csproj", "{97CAEF65-B899-4D80-8153-1831B6887440}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21 550 MyApp", "21 550 MyApp\21 550 MyApp.csproj", "{6BDC2BCA-8C13-4560-ABFF-73AE64D63065}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -422,6 +424,10 @@ Global
 		{97CAEF65-B899-4D80-8153-1831B6887440}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97CAEF65-B899-4D80-8153-1831B6887440}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97CAEF65-B899-4D80-8153-1831B6887440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BDC2BCA-8C13-4560-ABFF-73AE64D63065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BDC2BCA-8C13-4560-ABFF-73AE64D63065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BDC2BCA-8C13-4560-ABFF-73AE64D63065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BDC2BCA-8C13-4560-ABFF-73AE64D63065}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
