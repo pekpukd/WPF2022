@@ -8,7 +8,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 
 
-{
     class DockAroundTheBlock : Window
 {
     [STAThread]
@@ -30,6 +29,5 @@ using System.Windows.Media;
             btn.SetValue(DockPanel.DockProperty, (Dock)(i % 4));
         }
     }
-} 
 } 
 

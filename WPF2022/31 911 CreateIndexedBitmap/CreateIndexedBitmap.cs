@@ -10,7 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
 
-{
+
     public class CreateIndexedBitmap : Window
 {
     [STAThread]
@@ -43,5 +43,4 @@ using System.Windows.Media.Imaging;
         // Назначение объекта Image содержимым окна            
         Content = img;
     }
-} 
 } 

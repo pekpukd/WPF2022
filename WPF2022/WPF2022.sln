@@ -123,6 +123,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20 537 DumpContentPropertyA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31 911 CreateIndexedBitmap", "31 911 CreateIndexedBitmap\31 911 CreateIndexedBitmap.csproj", "{69ECEA23-E698-4A5F-851C-1692705F4151}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 160 SpaceWindow.cs", "08 SpaceWindow.cs\08 160 SpaceWindow.cs.csproj", "{9E800DDB-F225-404F-8900-65F1285A385E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -369,6 +371,10 @@ Global
 		{69ECEA23-E698-4A5F-851C-1692705F4151}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69ECEA23-E698-4A5F-851C-1692705F4151}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69ECEA23-E698-4A5F-851C-1692705F4151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E800DDB-F225-404F-8900-65F1285A385E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E800DDB-F225-404F-8900-65F1285A385E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E800DDB-F225-404F-8900-65F1285A385E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E800DDB-F225-404F-8900-65F1285A385E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

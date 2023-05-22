@@ -49,7 +49,7 @@ namespace Petzold.EnlargeButtonWithTimer
         {
             // увеличивает FontSize на 2 едицины каждую 0.1 секунды
             btn.FontSize += 2;
-            =
+            
             if (btn.FontSize >= maxFontSize)
             {
                 // кнопка восстанавливается в исходном размере

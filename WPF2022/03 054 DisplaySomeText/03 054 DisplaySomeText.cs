@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media;  // поможем определить цвет и стиль текста
-{
+
     class DisplaySomeText : Window
 {
     [STAThread]
@@ -24,5 +24,4 @@ using System.Windows.Media;  // поможем определить цвет и 
         Background = brush;  //задний план кисть
         Foreground = brush;  //передний план  кисть
     }
-}
 }

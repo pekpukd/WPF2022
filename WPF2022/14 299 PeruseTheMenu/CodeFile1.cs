@@ -17,7 +17,7 @@ namespace Petzold.PeruseTheMenu
         {
             Title = "Ознакомтесь с меню";             
             
-          .
+          
             DockPanel dock = new DockPanel();
             Content = dock;                // Создание объекта DockPanel
 
@@ -26,7 +26,7 @@ namespace Petzold.PeruseTheMenu
             dock.Children.Add(menu);
             DockPanel.SetDock(menu, Dock.Top);              // Создание меню
             
-            .
+            
             TextBlock text = new TextBlock();
             text.Text = Title;    // Создание объекта TextBlock, заполняющего оставшуюся часть
 
@@ -34,7 +34,7 @@ namespace Petzold.PeruseTheMenu
             text.TextAlignment = TextAlignment.Center;  //текст выравнивается по центру           
             dock.Children.Add(text);             
             
-            .
+            
             MenuItem itemFile = new MenuItem();
             itemFile.Header = "_File";
             menu.Items.Add(itemFile);   // Создание меню File
