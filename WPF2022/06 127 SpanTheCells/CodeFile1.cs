@@ -8,17 +8,17 @@ using System.Windows.Input;
 using System.Windows.Media;
 namespace Petzold.SpanTheCells // пограмма создает текстовые поля (5) и кнопки (2)
 {
-    public class SpanTheCells : Window
+    public class SpanTheCells : Window//класс, производный от Window
     {
-        [STAThread]
+        [STAThread]//используется однопоточная модель 
         public static void Main()
         {
             Application app = new Application();
-            app.Run(new SpanTheCells()); //запуск       
+            app.Run(new SpanTheCells()); //вызов метода Run, котрый запускает цикл сообщений        
         }
         public SpanTheCells()
         {
-            Title = "Span the Cells";  // имя окна           
+            Title = "Span the Cells";  //определение текста заголовка окна            
             SizeToContent = SizeToContent.WidthAndHeight; //отвечает за ширину и высоту           
             // Создание объекта Grid              
             Grid grid = new Grid();        
@@ -28,9 +28,9 @@ namespace Petzold.SpanTheCells // пограмма создает текстов
             // Set row definitions (определение строк)             
             for (int i = 0; i < 6; i++)   //кол-во строк          
             {
-                RowDefinition rowdef = new RowDefinition();
+                RowDefinition rowdef = new RowDefinition();//создание строки
                 rowdef.Height = GridLength.Auto;// высота       
-                grid.RowDefinitions.Add(rowdef);
+                grid.RowDefinitions.Add(rowdef);//добавление в коллекцию
             }
 
             // Set column definitions(определение столбцов).             
@@ -52,15 +52,15 @@ namespace Petzold.SpanTheCells // пограмма создает текстов
                 Label lbl = new Label();// создание надписи        
                 lbl.Content = astrLabel[i];                
                 lbl.VerticalContentAlignment = VerticalAlignment.Center; // положение в окне (по центру)             
-                grid.Children.Add(lbl); //добавляет в коллекцию Children             
-                Grid.SetRow(lbl, i);                
-                Grid.SetColumn(lbl, 0);                
+                grid.Children.Add(lbl); //добавление элементов на панель Grid            
+                Grid.SetRow(lbl, i);    //задает строку и столбец            
+                Grid.SetColumn(lbl, 0); //для отображения элемента               
                 TextBox txtbox = new TextBox();// создание текстовых полей                 
                 txtbox.Margin = new Thickness(5); // внешние отступы               
-                grid.Children.Add(txtbox); //добавляет в коллекцию Children                 
+                grid.Children.Add(txtbox); //добавление элементов на панель Grid                 
                 Grid.SetRow(txtbox, i);                 
                 Grid.SetColumn(txtbox, 1);
-                Grid.SetColumnSpan(txtbox, 3);
+                Grid.SetColumnSpan(txtbox, 3);//количество столбцов занимаемых элементом
             }
             // Create buttons (создание кнопок)          
             Button btn = new Button(); //создаем             

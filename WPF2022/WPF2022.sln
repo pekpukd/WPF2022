@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30413.136
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00 014 SayHello", "00 014 SayHello\00 014 SayHello.csproj", "{793284FA-333A-4836-8096-314E5F91385F}"
 EndProject
@@ -122,6 +122,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20 537 DumpContentPropertyAttributes", "20 537 DumpContentPropertyAttributes\20 537 DumpContentPropertyAttributes.csproj", "{453EFD37-9547-4288-97BA-7B447BDC054B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31 911 CreateIndexedBitmap", "31 911 CreateIndexedBitmap\31 911 CreateIndexedBitmap.csproj", "{69ECEA23-E698-4A5F-851C-1692705F4151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 082 ToggleTheButton", "04 082 ToggleTheButton\04 082 ToggleTheButton.csproj", "{002F96A2-0CDB-459A-9365-9366784ED5BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 219 RoundedButton", "11 219 RoundedButton\11 219 RoundedButton.csproj", "{0CA8BA9D-BF4A-4CE0-92EC-6630355041C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 252 Diagonal", "12 252 Diagonal\12 252 Diagonal.csproj", "{0036D01C-A4D7-47AB-898F-B8DECF43EC41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 310 CutCopyAndPaste", "14 310 CutCopyAndPaste\14 310 CutCopyAndPaste.csproj", "{A78E597D-B27E-4E9C-BD53-2C168ECE0E8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -369,6 +377,22 @@ Global
 		{69ECEA23-E698-4A5F-851C-1692705F4151}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69ECEA23-E698-4A5F-851C-1692705F4151}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69ECEA23-E698-4A5F-851C-1692705F4151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{002F96A2-0CDB-459A-9365-9366784ED5BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{002F96A2-0CDB-459A-9365-9366784ED5BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{002F96A2-0CDB-459A-9365-9366784ED5BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{002F96A2-0CDB-459A-9365-9366784ED5BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA8BA9D-BF4A-4CE0-92EC-6630355041C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA8BA9D-BF4A-4CE0-92EC-6630355041C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA8BA9D-BF4A-4CE0-92EC-6630355041C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA8BA9D-BF4A-4CE0-92EC-6630355041C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0036D01C-A4D7-47AB-898F-B8DECF43EC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0036D01C-A4D7-47AB-898F-B8DECF43EC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0036D01C-A4D7-47AB-898F-B8DECF43EC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0036D01C-A4D7-47AB-898F-B8DECF43EC41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78E597D-B27E-4E9C-BD53-2C168ECE0E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78E597D-B27E-4E9C-BD53-2C168ECE0E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78E597D-B27E-4E9C-BD53-2C168ECE0E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78E597D-B27E-4E9C-BD53-2C168ECE0E8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
