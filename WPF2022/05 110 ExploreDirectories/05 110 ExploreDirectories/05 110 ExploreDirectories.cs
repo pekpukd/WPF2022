@@ -9,20 +9,20 @@ using System.Windows.Input;
 using System.Windows.Media; 
 namespace Petzold.ExploreDirectories 
 {     
-    public class ExploreDirectories : Window     
+    public class ExploreDirectories : Window//класс, производный от Window     
     {         
-        [STAThread]         
+        [STAThread]//используется однопоточная модель         
         public static void Main()         
         {             
-            Application app = new Application();// создаем окошко             
-            app.Run(new ExploreDirectories());         
+            Application app = new Application();//создаем объект типа Application             
+            app.Run(new ExploreDirectories());//вызов метода Run, котрый запускает цикл сообщений         
         }         public ExploreDirectories()         
-        {             Title = "Explore Directories";// заголовок окна             
-            ScrollViewer scroll = new ScrollViewer();// содержимое окна             
+        {             Title = "Explore Directories";//определение текста заголовка окна             
+            ScrollViewer scroll = new ScrollViewer();//содержимое окна             
             Content = scroll;             
-            WrapPanel wrap = new WrapPanel();             
+            WrapPanel wrap = new WrapPanel();//содержимое ScrollViewer            
             scroll.Content = wrap;             
-            wrap.Children.Add(new  FileSystemInfoButton());         
+            wrap.Children.Add(new  FileSystemInfoButton());//дочерний элемент WrapPanel       
         }     
     } 
 } 

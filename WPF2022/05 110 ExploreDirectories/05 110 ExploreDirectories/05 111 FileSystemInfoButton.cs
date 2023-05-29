@@ -9,43 +9,43 @@ using System.Windows.Input;
 using System.Windows.Media;
 namespace Petzold.ExploreDirectories
 {     
-    public class FileSystemInfoButton : Button     
+    public class FileSystemInfoButton : Button //класс, производный от Button    
     {         FileSystemInfo info;                  
-        public FileSystemInfoButton()// конструктор создает кнопку для каталога                
+        public FileSystemInfoButton()// конструктор создает кнопку для каталога "Мои документы"               
             :             
             this(new DirectoryInfo(                 
                 Environment.GetFolderPath (Environment.SpecialFolder.MyDocuments)))         
         {         
         }                      
-        public FileSystemInfoButton(FileSystemInfo  info)// конструктор создает кнопку для каталога или файла     
+        public FileSystemInfoButton(FileSystemInfo  info)// конструктор с одним аргументом создает кнопку для каталога или файла     
         {             
             this.info = info;             
-            Content = info.Name;             
-            if (info is DirectoryInfo)                 
-                FontWeight = FontWeights.Bold;             
-            Margin = new Thickness(10);         }             
-        public FileSystemInfoButton(FileSystemInfo  info, string str)// создает кнопку для вовращения к родительскому каталогу             
+            Content = info.Name;//содержимое-имя объекта             
+            if (info is DirectoryInfo)//если обьект info представляет каталог                  
+                FontWeight = FontWeights.Bold;//шрифт             
+            Margin = new Thickness(10);         }//поля             
+        public FileSystemInfoButton(FileSystemInfo  info, string str)//конструктор с двумя аргументами создает кнопку для вовращения к родительскому каталогу             
             :             
             this(info)         
         {             
             Content = str;         
         }                 
-        protected override void OnClick()         
+        protected override void OnClick()//переопределение OnClick       
         {             
-            if (info is FileInfo)             
+            if (info is FileInfo) //проверка является ли объект info объектом типа FileInfo            
             {                 
                 Process.Start(info.FullName);// метод для запуска приложения             
             }             
-            else if (info is DirectoryInfo)             
+            else if (info is DirectoryInfo)//если обьект info представляет каталог            
             {                 
-                DirectoryInfo dir = info as  DirectoryInfo;                 
+                DirectoryInfo dir = info as  DirectoryInfo;//становится каталогом                 
                 Application.Current.MainWindow .Title = dir.FullName;// имя каталога отобржается в заголовке окна                 
                 Panel pnl = Parent as Panel;                 
                 pnl.Children.Clear();                 
-                if (dir.Parent != null)                     
+                if (dir.Parent != null)//если каталог не корневой                     
                     pnl.Children.Add(new  FileSystemInfoButton(dir.Parent, ".."));// создание кнопки перехода на верхний уровень, если каталог не является корневым              
-                foreach (FileSystemInfo inf in dir .GetFileSystemInfos())                     
-                    pnl.Children.Add(new  FileSystemInfoButton(inf));             
+                foreach (FileSystemInfo inf in dir .GetFileSystemInfos())//содержание каталога                     
+                    pnl.Children.Add(new  FileSystemInfoButton(inf));//создание объектов FileSystemInfoButton для всех элементов каталога             
             }             base.OnClick();         
         }     
     } 
