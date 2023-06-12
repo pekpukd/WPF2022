@@ -19,7 +19,7 @@ namespace Petzold.MeetTheDockers
             Title = "Meet the Dockers"; 
             DockPanel dock = new DockPanel(); 
             Content = dock;             
-            // Создание меню            
+            // Создание меню           
             Menu menu = new Menu();             
             MenuItem item = new MenuItem();             
             item.Header = "Menu";            
@@ -30,7 +30,7 @@ namespace Petzold.MeetTheDockers
             // Создание панели инструментов             
             ToolBar tool = new ToolBar();            
             tool.Header = "Toolbar";            
-            // Размещение панели инструментов у верхнего края           
+            // Размещение панели инструментов у верхнего края          
             DockPanel.SetDock(tool, Dock.Top);             
             dock.Children.Add(tool);             
             // Создание строки состояния             
@@ -41,10 +41,10 @@ namespace Petzold.MeetTheDockers
             // Размещение строки состояния у нижнего края панели             
             DockPanel.SetDock(status, Dock.Bottom);             
             dock.Children.Add(status);            
-            // Создание списка             
+            // Создание списка          
             ListBox lstbox = new ListBox();             
             lstbox.Items.Add("List Box Item");            
-            // Размещение списка у левого края панели          
+            // Размещение списка у левого края панели         
             DockPanel.SetDock(lstbox, Dock.Left);           
             dock.Children.Add(lstbox);            
             // Создание текстового поля            

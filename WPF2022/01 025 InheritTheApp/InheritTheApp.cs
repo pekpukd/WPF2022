@@ -9,16 +9,16 @@ namespace Petzold.InheritTheApp
 
         public static void Main()
         {
-            InheritTheApp app = new InheritTheApp();
-            app.Run();
+            InheritTheApp app = new InheritTheApp(); //создаем обьект класса InheritTheApp
+            app.Run(); // запускаем приложение wpf
         }
         protected override void OnStartup(StartupEventArgs args)
         {
-            base.OnStartup(args);
+            base.OnStartup(args); //вызов реализации базового класса
 
             Window win = new Window
             {
-                Title = "Inherit the App"
+                Title = "Inherit the App" // название окна
             };
             win.Show();
         }
@@ -29,7 +29,7 @@ namespace Petzold.InheritTheApp
         protected override void OnSessionEnding(SessionEndingCancelEventArgs args)
         {
             base.OnSessionEnding(args);
-            Console.WriteLine("hi");
+            Console.WriteLine("hi"); // выдод надписи 
 
             MessageBoxResult result = MessageBox.Show(
                 "Do you want to  save your data?",

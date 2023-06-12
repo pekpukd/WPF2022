@@ -24,6 +24,7 @@ namespace Petzold.FormatTheText
             Title = "Format the Text";
             TextBlock txt = new TextBlock();
             txt.FontSize = 32;// размер выводимого текста
+            // выводим текст разным по толщене 
             txt.Inlines.Add("This is some ");
             txt.Inlines.Add(new Italic(new Run("italic")));
             txt.Inlines.Add(" text, and this is some ");
