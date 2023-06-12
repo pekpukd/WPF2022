@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BED1BDA2-1B3F-4EFB-81AD-865E73A3CA5A}</ProjectGuid>
+    <ProjectGuid>{6131EA02-B28A-42A1-BD25-B51DD63C0A20}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_08_161_SetSpaceProperty</RootNamespace>
-    <AssemblyName>08 161 SetSpaceProperty</AssemblyName>
+    <RootNamespace>_15_322_FormatRichText</RootNamespace>
+    <AssemblyName>15 322 FormatRichText</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -36,19 +36,23 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="08 161 SetSpaceProperty.cs" />
-    <Compile Include="SpaceButton.cs" />
-    <Compile Include="SpaceWindow.cs" />
+    <Compile Include="FormatRichText.Edit.cs" />
+    <Compile Include="FormatRichText.File.cs" />
+    <Compile Include="FormatRichText.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
-    <Reference Include="System.Windows" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml" />
     <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\11 241 SelectColor\11 241 SelectColor.csproj">
+      <Project>{324682ad-c0f1-4edf-8c10-e88de18ae7d7}</Project>
+      <Name>11 241 SelectColor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
