@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BED1BDA2-1B3F-4EFB-81AD-865E73A3CA5A}</ProjectGuid>
+    <ProjectGuid>{7E84E263-288A-4078-AF5F-3979A78E3793}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_08_161_SetSpaceProperty</RootNamespace>
-    <AssemblyName>08 161 SetSpaceProperty</AssemblyName>
+    <RootNamespace>_19_479_XamlPage</RootNamespace>
+    <AssemblyName>19 479 XamlPage</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -36,19 +36,21 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="08 161 SetSpaceProperty.cs" />
-    <Compile Include="SpaceButton.cs" />
-    <Compile Include="SpaceWindow.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Windows" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml" />
     <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="XamlPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
