@@ -1,4 +1,4 @@
-59 prlojects in WPF2022
+59 prlojects in WPF2022 +8
 1	Good	drwxr-xr-x 1 osipov 197609     0 Mar 20 14:47 00 014 SayHello/
 2	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 01 020 InheritTheApp/
 3	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 16:41 01 022 ThrowWinPatry/
@@ -8,23 +8,28 @@
 7	Good	drwxr-xr-x 1 osipov 197609     0 Apr 10 21:39 02 042 GradiateTheBrush/
 8	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 17:03 02 046 AdjustTheGradient/
 9	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 02 047 FollowTheRainbow/
++ Good 02 048 CircleTheRainbow
 10	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 16:41 02 052 RotateTheGradientOrigin/
 11	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 03 054 DisplaySomeText/
 12	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 03 058 RecordKeystrokes/
 13	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:23 03 061 ShowMyFace/
 14	Good	drwxr-xr-x 1 osipov 197609     0 Mar 29 19:33 03 066 FormatTheText/
 15	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 03 068 ToggleBoldAndItalic/
++ Not working 03 070 SimpleEllipse
 16	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 16:41 03 071 RenderTheGraphic/
 17	Good	drwxr-xr-x 1 osipov 197609     0 Apr 10 21:39 04 073 ClickTheButton/
 18	Good	drwxr-xr-x 1 osipov 197609     0 May 10 18:51 04 078 ImageTheButton/
 19	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 04 079 ImageTheButton.cs/
++ Good 04 082 ToggleTheButton
 20	Good	drwxr-xr-x 1 osipov 197609     0 Apr  5 16:41 04 085 BindTheButton/
 21	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 04 092 EditSomeText/
 22	Good	drwxr-xr-x 1 osipov 197609     0 Apr 19 21:52 05 103 ScrollFiftyButtons.cs/
 23	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:23 05 106 DesignAButton/
++ Good 05 108 TuneTheRadio
 24	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 05 110 ExploreDirectories/
 25	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 06 115 DockAroundTheBlock/
 26	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 06 117 MeetTheDockers/
++ Good 06 124 EnterTheGrid
 27	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:23 06 127 SpanTheCells/
 28	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 06 130 SplitNine/
 29	Good	drwxr-xr-x 1 osipov 197609     0 Apr 20 01:02 06 133 SplitTheClient/
@@ -33,6 +38,8 @@
 32	Bad	drwxr-xr-x 1 osipov 197609     0 May 24 23:26 08 161 SetSpaceProperty/
 33	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 09 169 ExamineRoutedEvents/
 34	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 09 180 DrawCircles/
++ Good 09 190 ExamineKeystrokes
++ Not starting 10 198 GetMedieval
 35	Good	drwxr-xr-x 1 osipov 197609     0 May 10 21:54 11 228 BuildButtonFactory/
 36	No au	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 11 241 SelectColor/
 37	Good	drwxr-xr-x 1 osipov 197609     0 May 17 20:15 12 246 DuplicateUniformGrid/
@@ -40,6 +47,7 @@
 39	Good	drwxr-xr-x 1 osipov 197609     0 May 17 23:32 13 279 ListColorShapes/
 40	Good	drwxr-xr-x 1 osipov 197609     0 May 28 15:44 13 280 ListColoredLabels/
 41	Good	drwxr-xr-x 1 osipov 197609     0 May 28 15:44 13 282 ListWithListBoxItems/
++ Not starting 13 288 ListColorsEvenElegantlier
 42	Good	drwxr-xr-x 1 osipov 197609     0 May 10 22:27 14 299 PeruseTheMenu/
 43	No cm	drwxr-xr-x 1 osipov 197609     0 May 17 21:32 14 317 CommandTheMenu/
 44	Good	drwxr-xr-x 1 osipov 197609     0 May 17 21:43 19 482 LoadXamlResource/
