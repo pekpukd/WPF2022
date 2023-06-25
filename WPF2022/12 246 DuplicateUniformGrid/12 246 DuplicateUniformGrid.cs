@@ -3,11 +3,11 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
-namespace Petzold.DuplicateUniformGrid
+namespace Petzold.DuplicationformGrid
 {
-    class UniformGridAlmost : Panel //добавили класс -- пример со стр. 244, 
+    class UniformGridAlmost : Panel //добавили класс -- пример со стр. 244,
                                     //чтобы можно было его использовать в нашем примере
-    {
+    {                             
         // Открытые статистические зависимые свойства только для чтения.
         public static readonly DependencyProperty ColumnsProperty;
         // Статистический конструктор для создания зависимого свойства.
@@ -35,7 +35,7 @@ namespace Petzold.DuplicateUniformGrid
         {
             // Вычисление размера дочернего элемента.
             Size sizeChild = new Size(sizeAvailable.Width / Columns,
-            sizeAvailable.Height / Rows);
+            sizeAvailable.Height / Rows); 
             // Переменные для накопления максимальных ширин и высот.
             double maxwidth = 0;
             double maxheight = 0;
@@ -44,8 +44,8 @@ namespace Petzold.DuplicateUniformGrid
                 // Вызвать Measure для каждого дочернего объекта ...
                 child.Measure(sizeChild);
                 // ... а затем проверить свойство DesiredSize дочернего объекта.
-                maxwidth = Math.Max(maxwidth, child.DesiredSize.Width);
-                maxheight = Math.Max(maxheight, child.DesiredSize.Height);
+                maxwidth = Math.Max(maxwidth, child.DesiredSize.Width); // макс ширина
+                maxheight = Math.Max(maxheight, child.DesiredSize.Height); //макс высота
             }
             // Теперь вычисляется желательный размер для самой решётки.
             return new Size(Columns * maxwidth, Rows * maxheight);
@@ -95,7 +95,7 @@ namespace Petzold.DuplicateUniformGrid
             for (int index = 0; index < 48; index++)
             {
                 Button btn = new Button();   //в .btn классы предназначены для использования Button (обычная кнопка)          
-                btn.Name = "Button" + index; //имя кнопки "Button + индекс"       
+                btn.Name = "Button" + index; //имя кнопки "Button + индекс"
                 btn.Content = btn.Name;
                 btn.FontSize += rand.Next(10); //размер шрифта         
                 unigrid.Children.Add(btn);

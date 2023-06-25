@@ -15,17 +15,17 @@ namespace Petzold.BuildButtonFactory
         }
         public BuildButtonFactory()
         {
-            Title = "Build Button Factory";
+            Title = "Build Button Factory"; // заголовок
 
             // Создание объекта ControlTemplate для Button.
             ControlTemplate template = new ControlTemplate(typeof(Button));
 
             // Создание объекта FrameworkElementFactory  для Border.
             FrameworkElementFactory factoryBorder =
-                new FrameworkElementFactory(typeof(Border));
+                new FrameworkElementFactory(typeof(Border)); // Создание объекта FrameworkElementFactory 
 
             // Назначение имени для последующих ссылок.
-            factoryBorder.Name = "border";
+            factoryBorder.Name = "border"; // имя строк  для последующих ссылок.
 
             // Задание некоторых свойст по умолчанию.
             factoryBorder.SetValue(Border.BorderBrushProperty, Brushes.Red); //цвет рамки
@@ -110,7 +110,7 @@ namespace Petzold.BuildButtonFactory
             btn.FontSize = 48; //размер шрифта
             btn.HorizontalAlignment = HorizontalAlignment.Center; //кнопка выравнена по центру по горизонтали
                                                                   //и по вертикали
-            btn.VerticalAlignment = VerticalAlignment.Center; 
+            btn.VerticalAlignment = VerticalAlignment.Center;
             btn.Click += ButtonOnClick;
             Content = btn;
         }

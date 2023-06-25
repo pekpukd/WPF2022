@@ -13,7 +13,7 @@
 // -----------------------------------------
 
 using System;
-using System.Windows;
+using System.Windows; // пространство имен, вкл в себя все основные классы wpf
 
 namespace Petzold.SayHello
 {
@@ -22,16 +22,15 @@ namespace Petzold.SayHello
         [STAThread] // Program will use single-threaded model to run
         public static void Main()
         {
-            Window win = new Window(); // Initializing the new object "window" 
-            win.Title = "Say Hello"; // Make title for the window
+            Window win = new Window(); // Инициализация нового обхекта Окно
+            win.Title = "Say Hello"; // заголовок для окна
             win.Show(); // Display that white box to user on desktop
-
             Application app = new Application();
-            app.Run(); // Run the main event cycle that will keep the window open and track all user actions
+            app.Run(); //запускает цикл сообщений
 
             /*
               // Also the previous code can be simplified into:
-              new Application().Run(new Window {Title = "Say Hello"});
+              new Application().Run(new Window {Title = "Say Hello"});             
             */
         }
     }
