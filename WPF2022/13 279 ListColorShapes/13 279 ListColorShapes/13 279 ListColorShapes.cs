@@ -10,19 +10,19 @@ using System.Windows.Media;
 using System.Windows.Shapes;
 namespace Petzold.ListColorShapes
 {
-    class ListColorShapes : Window
+    class ListColorShapes : Window//класс, производный от Window
     {
-        [STAThread]
+        [STAThread]//используется однопоточная модель
         public static void Main()
         {
-            Application app = new Application();
-            app.Run(new ListColorShapes());
+            Application app = new Application();//создаем объект типа Application
+            app.Run(new ListColorShapes());//вызов метода Run, котрый запускает цикл сообщений
         }
         public ListColorShapes()
         {
-            Title = "List Color Shapes";
-            
- ListBox lstbox = new ListBox();// содержимое окна, объект класса ListBox
+            Title = "List Color Shapes";//определение текста заголовка окна
+
+            ListBox lstbox = new ListBox();// содержимое окна, объект класса ListBox
             lstbox.Width = 150;// параметры ListBox
             lstbox.Height = 150;
             lstbox.SelectionChanged += ListBoxOnSelectionChanged;
@@ -36,7 +36,7 @@ namespace Petzold.ListColorShapes
                 ellip.Height = 25;
                 ellip.Margin = new Thickness(10, 5, 0, 5);
                 ellip.Fill = prop.GetValue(null, null) as Brush;
-                lstbox.Items.Add(ellip);
+                lstbox.Items.Add(ellip);//включение вариантов в колекцию Items
             }
         }
         void ListBoxOnSelectionChanged(object sender, SelectionChangedEventArgs args)

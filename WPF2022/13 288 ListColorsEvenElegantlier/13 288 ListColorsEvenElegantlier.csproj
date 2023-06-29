@@ -44,5 +44,11 @@
   <ItemGroup>
     <Compile Include="13 288 ListColorsEvenElegantlier.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\13 277 ListNamedBrushes\13 277 ListNamedBrushes.csproj">
+      <Project>{d90d2afb-075b-42b8-8b02-b22131aa4e9d}</Project>
+      <Name>13 277 ListNamedBrushes</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

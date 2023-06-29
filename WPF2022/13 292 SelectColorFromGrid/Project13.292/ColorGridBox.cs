@@ -9,7 +9,7 @@
     using System.Windows.Media;
     using System.Windows.Shapes;
 
-    class ColorGridBox : ListBox
+    public class ColorGridBox : ListBox
     {
         #region Fields
         // Отображаемые цвета

@@ -59,8 +59,7 @@
 2023-06-26  00:23    <DIR>          12 246 DuplicateUniformGrid
 2023-06-26  00:16    <DIR>          13 268 ListColorNames
 2023-06-18  22:13    <DIR>          13 271 ListColorValues
-2023-06-18  17:51    <DIR>          13 279 ListColorShapes
-2023-06-18  17:51    <DIR>          13 280 ListColoredLabels
+ZA2023-06-18  17:51    <DIR>          13 280 ListColoredLabels
 2023-06-18  17:51    <DIR>          13 282 ListWithListBoxItems
 2023-06-18  19:41    <DIR>          13 288 ListColorsEvenElegantlier
 2023-06-18  22:16    <DIR>          13 292 SelectColorFromGrid
