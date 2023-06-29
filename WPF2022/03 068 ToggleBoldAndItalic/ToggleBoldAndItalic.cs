@@ -10,41 +10,41 @@ using System.Windows.Media;
 
 namespace Petzold.ToggleBoldAndItalic 
 {     
-    public class ToggleBoldAndItalic : Window     
+    public class ToggleBoldAndItalic : Window//класс, производный от Window     
     {         
-        [STAThread]         
+        [STAThread]//используется однопоточная модель         
         public static void Main()         
         {             
-            Application app = new Application();             
-            app.Run(new ToggleBoldAndItalic());         
+            Application app = new Application();//создаем объект типа Application             
+            app.Run(new ToggleBoldAndItalic()); //вызов метода Run, котрый запускает цикл сообщений      
         }         
         public ToggleBoldAndItalic()         
         {             
-            Title = "Toggle Bold & Italic";             
-            TextBlock text = new TextBlock();             
-            text.FontSize = 32;             
-            text.HorizontalAlignment =  HorizontalAlignment.Center;             
-            text.VerticalAlignment =  VerticalAlignment.Center;             
-            Content = text;             
-            string strQuote = "To be, or not to be , that is the question";             
-            string[] strWords = strQuote.Split();             
-            foreach (string str in strWords)             
+            Title = "Toggle Bold & Italic"; //определяет текст заголовка окна            
+            TextBlock text = new TextBlock();//колекция Inlines            
+            text.FontSize = 32;  //размер шрифта           
+            text.HorizontalAlignment =  HorizontalAlignment.Center;//содержимое по          
+            text.VerticalAlignment =  VerticalAlignment.Center;    // центру         
+            Content = text;  //содержимое            
+            string strQuote = "To be, or not to be , that is the question";//целая фраза             
+            string[] strWords = strQuote.Split();// разделение фразы по словам           
+            foreach (string str in strWords) //проходка по словам            
             {                 
-                Run run = new Run(str);                 
-                run.MouseDown += RunOnMouseDown;                 
-                text.Inlines.Add(run);                 
+                Run run = new Run(str);//конструкторы Bold и Italic принимают только объекты Inline, по этому используем конструктор Run для каждого слова              
+                run.MouseDown += RunOnMouseDown;//нажатие мыши = изменения шрифта                 
+                text.Inlines.Add(run); //объединяем слова в коллекцию Inlines объекта TextBlock              
                 text.Inlines.Add(" ");             
             }         
         }         
         void RunOnMouseDown(object sender,  MouseButtonEventArgs args)         
         {             
             Run run = sender as Run;             
-            if (args.ChangedButton == MouseButton .Left)                 
+            if (args.ChangedButton == MouseButton .Left) //изменение от нажатия левой клавиши                
                 run.FontStyle = run.FontStyle ==  FontStyles.Italic ?                     
-                    FontStyles.Normal : FontStyles .Italic;             
-            if (args.ChangedButton == MouseButton .Right)                 
+                    FontStyles.Normal : FontStyles .Italic;//курсивное начертание             
+            if (args.ChangedButton == MouseButton .Right) //изменение от нажатия правой клавиши               
                 run.FontWeight = run.FontWeight ==  FontWeights.Bold ?                     
-                    FontWeights.Normal :  FontWeights.Bold;         
+                    FontWeights.Normal :  FontWeights.Bold;//полужирное начертание         
         }     
     } 
 }

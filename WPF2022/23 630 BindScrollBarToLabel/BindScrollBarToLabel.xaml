@@ -1,0 +1,8 @@
+﻿<StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:av="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="av" av:DesignHeight="95.657" av:DesignWidth="81.633">
+
+	<!-- Приемник привязки -->
+	<ScrollBar Orientation="Horizontal" Margin="24"                Maximum="100" LargeChange="10"  SmallChange="1"                Value="{Binding Content, ElementName=lbl}" />
+	<!-- Источник привязки -->
+	<Label x:Name="lbl" Content="50"            HorizontalAlignment="Center" />
+</StackPanel>
