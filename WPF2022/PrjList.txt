@@ -96,7 +96,7 @@ Bad 2022-06-03  20:21    <DIR>          24 661 StyleWithMultipleButtons
 72	Bad	drwxr-xr-x 1 osipov 197609     0 Jun  3 19:51 24 662-3 StylesWithSameKeys/
 Bas 2023-06-26  15:04    <DIR>          25 690 ToggleSwitch
 Bad 2023-06-26  15:05    <DIR>          25 703 AutoTemplateSelection
-Bad 2023-06-26  15:05    <DIR>          25 703 AutoTemplateSelection
+Bad 2023-06-26  15:05    <DIR>          25 749 People
 Bad 2023-06-26  15:06    <DIR>          26 756 NavigationBar
 Bad 2023-06-26  15:07    <DIR>          27 786 SelfPortraitSansGlasses
 Bad 2023-06-26  15:08    <DIR>          27 788 ScalableFace
