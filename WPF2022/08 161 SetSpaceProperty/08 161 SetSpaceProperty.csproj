@@ -36,8 +36,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="08 157 SpaceButton.cs" />
-    <Compile Include="08 160 SapceWindow.cs" />
     <Compile Include="08 161 SetSpaceProperty.cs" />
   </ItemGroup>
   <ItemGroup>

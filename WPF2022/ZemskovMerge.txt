@@ -1,0 +1,497 @@
+merge --no-ff VerySexyMan-main
+Merge made by the 'ort' strategy.
+ WPF2022/.editorconfig                              |   4 +
+ .../01 020 InheritTheApp.csproj                    |  94 +++----
+ .../01 022 ThrowWinPatry.csproj                    |  96 +++----
+ .../Project1/01 024 InheritAppAndWindow.csproj     | 100 +++----
+ .../01 029 GrowAndShrink.csproj                    |  96 +++----
+ WPF2022/01 029 GrowAndShrink/GrowAndShrink.cs      |  24 +-
+ .../01 031 TypeYourTitle.csproj                    |  98 +++----
+ .../Project2/02 037 VaryTheBackground.csproj       |  96 +++----
+ .../02 042 GradiateTheBrush.csproj                 |  94 +++----
+ .../02 046 AdjustTheGradient.csproj                |  94 +++----
+ .../02 048 CircleTheRainbow.csproj                 |  94 +++----
+ .../02 050 ClickTheGradientCenter.csproj           |  96 +++----
+ .../02 052 RotateTheGradientOrigin.csproj          |  94 +++----
+ .../RotateTheGradientOrigin.cs                     |  79 +++---
+ .../03 054 DisplaySomeText.csproj                  | 110 ++++----
+ .../03 058 RecordKeystrokes.csproj                 |  96 +++----
+ WPF2022/03 061 ShowMyFace/03 061 ShowMyFace.csproj |  94 +++----
+ .../03 066 FormatTheText/03 066 FormatTheText.cs   |   1 +
+ .../03 066 FormatTheText.csproj                    | 100 +++----
+ .../03 068 ToggleBoldAndItalic.csproj              |  96 +++----
+ .../ToggleBoldAndItalic.cs                         |  40 +--
+ .../03 070 SimpleEllipse.csproj                    |  94 +++----
+ .../03 071 RenderTheGraphic.csproj                 |  98 +++----
+ .../03 071 RenderTheGraphic/RenderTheGraphic.cs    |  40 +--
+ WPF2022/03 071 RenderTheGraphic/SimpleEllipse.cs   |  29 ++-
+ .../04 073 ClickTheButton.csproj                   |  94 +++----
+ .../Project2/04 077 FormatTheButton.csproj         |  96 +++----
+ .../04 078 ImageTheButton.csproj                   | 100 +++----
+ .../Project1/04 079 ImageTheButton.cs.csproj       | 100 +++----
+ .../04 080 CommandTheButton.cs                     |  41 +++
+ .../04 080 CommandTheButton.csproj                 |  71 +++++
+ .../Properties/AssemblyInfo.cs                     |  55 ++++
+ .../Properties/Resources.Designer.cs               |  71 +++++
+ .../Properties/Resources.resx                      | 117 +++++++++
+ .../Properties/Settings.Designer.cs                |  30 +++
+ .../Properties/Settings.settings                   |   7 +
+ .../04 082 ToggleTheButton.csproj                  |  94 +++----
+ WPF2022/04 082 ToggleTheButton/ToggleTheButton.cs  |  35 +++
+ .../04 085 BindTheButton.csproj                    |  94 +++----
+ .../04 092 EditSomeText/04 092 EditSomeText.csproj |  96 +++----
+ .../Danila 5 97/05 097 StackTenButtons.csproj      |  94 +++----
+ .../05 103 ScrollFiftyButtons.csproj               | 110 ++++----
+ .../05 106 DesignAButton.csproj                    | 102 ++++----
+ WPF2022/05 106 DesignAButton/Book_Image.jpg        | Bin 405795 -> 20508 bytes
+ .../05 108 TuneTheRadio/05 108 TuneTheRadio.csproj |  94 +++----
+ WPF2022/05 108 TuneTheRadio/App.xaml               |   9 +
+ WPF2022/05 108 TuneTheRadio/App.xaml.cs            |  17 ++
+ WPF2022/05 108 TuneTheRadio/MainWindow.xaml        |  12 +
+ WPF2022/05 108 TuneTheRadio/MainWindow.xaml.cs     |  48 ++++
+ .../05 108 TuneTheRadio/Properties/AssemblyInfo.cs |  55 ++++
+ .../Properties/Resources.Designer.cs               |  71 +++++
+ .../05 108 TuneTheRadio/Properties/Resources.resx  | 117 +++++++++
+ .../Properties/Settings.Designer.cs                |  30 +++
+ .../Properties/Settings.settings                   |   7 +
+ .../05 110 ExploreDirectories.cs                   |  16 +-
+ .../05 110 ExploreDirectories.csproj               | 102 ++++----
+ .../05 111 FileSystemInfoButton.cs                 |  30 +--
+ .../06 115 DockAroundTheBlock.csproj               |  96 +++----
+ .../06 117 MeetTheDockers/06 117 MeetTheDockers.cs |   8 +-
+ .../06 124 EnterTheGrid/06 124 EnterTheGrid.csproj |  94 +++----
+ WPF2022/06 124 EnterTheGrid/App.xaml               |   9 +
+ WPF2022/06 124 EnterTheGrid/App.xaml.cs            |  17 ++
+ WPF2022/06 124 EnterTheGrid/MainWindow.xaml        |  12 +
+ WPF2022/06 124 EnterTheGrid/MainWindow.xaml.cs     |  79 ++++++
+ .../06 124 EnterTheGrid/Properties/AssemblyInfo.cs |  55 ++++
+ .../Properties/Resources.Designer.cs               |  71 +++++
+ .../06 124 EnterTheGrid/Properties/Resources.resx  | 117 +++++++++
+ .../Properties/Settings.Designer.cs                |  30 +++
+ .../Properties/Settings.settings                   |   7 +
+ .../06 127 SpanTheCells/06 127 SpanTheCells.csproj |  94 +++----
+ WPF2022/06 127 SpanTheCells/CodeFile1.cs           |  22 +-
+ .../06 130 SplitNine/06 130 SplitNine.csproj       | 104 ++++----
+ .../06 133 SplitTheClient.csproj                   |  94 +++----
+ .../Project6.136/06 136 ScrollCustomColors.csproj  |  94 +++----
+ .../Project6.136/ScrollCustomColors.cs             |  59 ++++-
+ .../07 141 PaintTheButton.cs                       |  41 +--
+ .../07 141 PaintTheButton.cs.csproj                |  94 +++----
+ WPF2022/07 146 PlayJeuDeTacquin/07 143 Tile.cs     |  72 ++++++
+ WPF2022/07 146 PlayJeuDeTacquin/07 145 Empty.cs    |  10 +
+ .../07 146 PlayJeuDeTacquin.cs                     | 140 ++++++++++
+ .../07 146 PlayJeuDeTacquin.csproj                 |  78 ++++++
+ WPF2022/07 146 PlayJeuDeTacquin/App.config         |   6 +
+ WPF2022/07 146 PlayJeuDeTacquin/packages.config    |   4 +
+ .../08 150 SetFontSizeProperty.csproj              |  94 +++----
+ .../08 161 SetSpaceProperty/08 157 SpaceButton.cs  |  86 ++++++
+ .../08 161 SetSpaceProperty/08 160 SapceWindow.cs  |  40 +++
+ .../08 161 SetSpaceProperty.csproj                 |  96 +++----
+ WPF2022/08 161 SetSpaceProperty/SpaceButton.cs     |  76 ++++++
+ WPF2022/08 161 SetSpaceProperty/SpaceWindow.cs     |  35 +++
+ .../09 180 DrawCircles/09 180 DrawCircles.csproj   | 104 ++++----
+ .../09 186 ShadowTheStylus.cs                      |  32 ++-
+ .../09 186 ShadowTheStylus.csproj                  |  96 +++----
+ .../09 190 ExamineKeystrokes.csproj                |  94 +++----
+ .../10 198 GetMedieval/10 198 GetMedieval.csproj   |  94 +++----
+ .../10 200 RenderTheBetterEllipse.csproj           |  96 +++----
+ .../11 213 EllipseWithChild.cs                     |  92 +++++++
+ .../11 216 EncloseElementInEllipse.cs              |  30 +++
+ .../11 216 EncloseElementInEllipse.csproj          |  81 ++++++
+ WPF2022/11 216 EncloseElementInEllipse/App.config  |   6 +
+ .../Properties/AssemblyInfo.cs                     |  55 ++++
+ .../Properties/Resources.Designer.cs               |  71 +++++
+ .../Properties/Resources.resx                      | 117 +++++++++
+ .../Properties/Settings.Designer.cs                |  30 +++
+ .../Properties/Settings.settings                   |   7 +
+ .../11 217 RoundedButtonDecorator.cs               |  70 +++++
+ .../11 219 RoundedButton/11 219 RoundedButton.cs   | 110 ++++++++
+ .../11 219 RoundedButton.csproj                    |  55 ++++
+ .../11 219 RoundedButton/11 222 CalculateInHex.cs  | 230 +++++++++++++++++
+ WPF2022/11 219 RoundedButton/App.config            |   6 +
+ .../11 228 BuildButtonFactory.csproj               |  94 +++----
+ .../11 241 SelectColor/11 241 SelectColor.csproj   |  98 +++----
+ .../12 246 DuplicateUniformGrid.csproj             | 118 ++++-----
+ .../12 250 PaintOnCanvasClone.cs                   |  35 +++
+ .../12 250 PaintOnCanvasClone.csproj               |  84 ++++++
+ WPF2022/12 250 PaintOnCanvasClone/App.config       |   6 +
+ .../Properties/AssemblyInfo.cs                     |  55 ++++
+ .../Properties/Resources.Designer.cs               |  71 +++++
+ .../Properties/Resources.resx                      | 117 +++++++++
+ .../Properties/Settings.Designer.cs                |  30 +++
+ .../Properties/Settings.settings                   |   7 +
+ WPF2022/12 252 Diagonal/12 252 Diagonal.csproj     |  49 ++++
+ WPF2022/12 252 Diagonal/App.config                 |   6 +
+ WPF2022/12 252 Diagonal/DiagonalPanel.cs           |  99 +++++++
+ WPF2022/12 252 Diagonal/DiagonalizeTheButtons.cs   |  30 +++
+ WPF2022/13 235 ColorGrid/11 235 ColorGrid.cs       |  51 ++++
+ WPF2022/13 235 ColorGrid/11 235 ColorGrid.csproj   |  84 ++++++
+ WPF2022/13 235 ColorGrid/App.config                |   6 +
+ .../13 235 ColorGrid/Properties/AssemblyInfo.cs    |  55 ++++
+ .../Properties/Resources.Designer.cs               |  71 +++++
+ WPF2022/13 235 ColorGrid/Properties/Resources.resx | 117 +++++++++
+ .../Properties/Settings.Designer.cs                |  30 +++
+ .../13 235 ColorGrid/Properties/Settings.settings  |   7 +
+ .../13 268 ListColorNames.csproj                   |  94 +++----
+ .../13 271 ListColorValues.csproj                  |  94 +++----
+ .../13 277 ListNamedBrushes/13 276 NamedBrush.cs   |  63 +++++
+ .../13 277 ListNamedBrushes.cs                     |  39 +++
+ .../13 277 ListNamedBrushes.csproj                 |  49 ++++
+ WPF2022/13 277 ListNamedBrushes/App.config         |   6 +
+ .../13 279 ListColorShapes.cs                      |  16 +-
+ .../13 280 ListColoredLabels.csproj                | 104 ++++----
+ .../13 282 ListWithListBoxItems.csproj             | 104 ++++----
+ .../13 288 ListColorsEvenElegantlier.csproj        | 100 +++----
+ .../13 292 SelectColorFromGrid.csproj              |  96 +++----
+ .../Project13.292/ColorGridBox.cs                  | 108 ++++----
+ .../14 299 PeruseTheMenu.csproj                    |  94 +++----
+ .../14 303 CheckTheWindowStyle.cs                  |  63 +++++
+ .../14 303 CheckTheWindowStyle.csproj              |  84 ++++++
+ WPF2022/14 303 CheckTheWindowStyle/App.config      |   6 +
+ .../Properties/AssemblyInfo.cs                     |  55 ++++
+ .../Properties/Resources.Designer.cs               |  71 +++++
+ .../Properties/Resources.resx                      | 117 +++++++++
+ .../Properties/Settings.Designer.cs                |  30 +++
+ .../Properties/Settings.settings                   |   7 +
+ .../14 310 CutCopyAndPaste.csproj                  |  48 ++++
+ WPF2022/14 310 CutCopyAndPaste/App.config          |   6 +
+ WPF2022/14 310 CutCopyAndPaste/CutCopyAndPaste.cs  | 104 ++++++++
+ .../Project14.314/14 314 ControlXCV.csproj         |  96 +++----
+ .../14 317 CommandTheMenu.csproj                   |  96 +++----
+ .../15 330 MoveTheToolbar.csproj                   |  47 ++++
+ WPF2022/15 330 MoveTheToolbar/App.config           |   6 +
+ WPF2022/15 330 MoveTheToolbar/CodeFile1.cs         |  53 ++++
+ .../15 332 FormatRichText/15 332 FormatRichText.cs |  41 +++
+ .../15 332 FormatRi\321\201hText.csproj"           |  61 +++++
+ .../15 333 FormatRichText.File.cs                  | 129 +++++++++
+ .../15 337 FormatRichText.Edit.cs                  |  66 +++++
+ .../15 340 FormatRichText.Chars.cs                 | 287 +++++++++++++++++++++
+ .../15 347 FormatRichText.Para.cs                  | 112 ++++++++
+ .../15 350 FormatRichText.Status.cs                |  43 +++
+ WPF2022/15 332 FormatRichText/App.config           |   6 +
+ .../19 478 XamlStackPanel.csproj                   |  83 ++++++
+ WPF2022/19 478 XamlStackPanel/MainWindow.xaml      |  30 +++
+ WPF2022/19 479 XamlPage/19 479 XamlPage.csproj     |  59 +++++
+ WPF2022/19 479 XamlPage/App.config                 |   6 +
+ WPF2022/19 479 XamlPage/XamlPage.xaml              |  15 ++
+ .../19 482 LoadXamlResource.csproj                 | 106 ++++----
+ .../19 485 LoadXamlFile/19 485 LoadXamlFile.csproj | 120 ++++-----
+ .../19 491 CompileXamlWindow.csproj                | 108 ++++----
+ .../20 506 XamlCruncherSettings.csproj             |  98 +++++++
+ WPF2022/20 506 XamlCruncherSettings/App.config     |   6 +
+ WPF2022/20 506 XamlCruncherSettings/App.xaml       |   9 +
+ WPF2022/20 506 XamlCruncherSettings/App.xaml.cs    |  17 ++
+ .../20 506 XamlCruncherSettings/MainWindow.xaml    |  12 +
+ .../20 506 XamlCruncherSettings/MainWindow.xaml.cs |  22 ++
+ .../Properties/AssemblyInfo.cs                     |  55 ++++
+ .../Properties/Resources.Designer.cs               |  71 +++++
+ .../Properties/Resources.resx                      | 117 +++++++++
+ .../Properties/Settings.Designer.cs                |  30 +++
+ .../Properties/Settings.settings                   |   7 +
+ .../20 514 XamlTabSpacesDialog.csproj              |  55 ++++
+ WPF2022/20 514 XamlTabSpacesDialog/App.config      |   6 +
+ .../XamlTabSpacesDialog.cs                         |  34 +++
+ .../XamlTabSpacesDialog.xaml                       |  14 +
+ .../20 537 DumpContentPropertyAttributes.csproj    |  96 +++----
+ .../21 550 GradientBrushResourceDemo.csproj        |  11 +
+ WPF2022/21 550 GradientBrushResourceDemo/App.xaml  |   9 +
+ .../21 550 GradientBrushResourceDemo/App.xaml.cs   |  17 ++
+ .../AssemblyInfo.cs                                |  10 +
+ .../MainWindow.xaml                                |  12 +
+ .../MainWindow.xaml.cs                             |  28 ++
+ WPF2022/21 550 MyApp/21 550 MyApp.csproj           |  98 +++++++
+ WPF2022/21 550 MyApp/App.config                    |   6 +
+ WPF2022/21 550 MyApp/App.xaml                      |  17 ++
+ WPF2022/21 550 MyApp/App.xaml.cs                   |  17 ++
+ WPF2022/21 550 MyApp/MainWindow.xaml               |  21 ++
+ WPF2022/21 550 MyApp/MainWindow.xaml.cs            |  29 +++
+ WPF2022/21 550 MyApp/Properties/AssemblyInfo.cs    |  55 ++++
+ .../21 550 MyApp/Properties/Resources.Designer.cs  |  71 +++++
+ WPF2022/21 550 MyApp/Properties/Resources.resx     | 117 +++++++++
+ .../21 550 MyApp/Properties/Settings.Designer.cs   |  30 +++
+ WPF2022/21 550 MyApp/Properties/Settings.settings  |   7 +
+ .../21 553 EnvironmentInfo.csproj                  |  59 +++++
+ WPF2022/21 553 EnvironmentInfo/App.config          |   6 +
+ .../21 553 EnvironmentInfo/EnvironmentInfo.xaml    |  29 +++
+ .../22 584 YellowPadWindow.Help.csproj             |  65 +++++
+ WPF2022/22 584 YellowPadWindow.Help/App.config     |   6 +
+ .../EraserToolDialog.xaml                          |  19 ++
+ .../22 584 YellowPadWindow.Help/YellowPadHelp.cs   |  26 ++
+ .../22 584 YellowPadWindow.Help/YellowPadHelp.xaml |  38 +++
+ WPF2022/22 597 Vitals/22 597 Vitals.csproj         |  47 ++++
+ WPF2022/22 597 Vitals/App.config                   |   6 +
+ WPF2022/22 597 Vitals/CodeFile1.cs                 |  32 +++
+ .../23 630 BindScrollBarToLabel.csproj             |  56 ++++
+ WPF2022/23 630 BindScrollBarToLabel/App.config     |   6 +
+ .../BindScrollBarToLabel.xaml                      |   8 +
+ .../23 631 BindingWithDataContext.csproj           |  57 ++++
+ WPF2022/23 631 BindingWithDataContext/App.config   |   6 +
+ .../UserControl1.xaml                              |  25 ++
+ .../UserControl1.xaml.cs                           |  28 ++
+ .../24 661 StyleWithMultipleElements.csproj        |  57 ++++
+ .../24 661 StyleWithMultipleElements/App.config    |   6 +
+ .../UserControl1.xaml                              |  26 ++
+ .../UserControl1.xaml.cs                           |  28 ++
+ .../25 690 ToggleSwitch/25 690 ToggleSwitch.csproj |  57 ++++
+ WPF2022/25 690 ToggleSwitch/App.config             |   6 +
+ WPF2022/25 690 ToggleSwitch/UserControl1.xaml      |  43 +++
+ WPF2022/25 690 ToggleSwitch/UserControl1.xaml.cs   |  28 ++
+ .../25 703 AutoTemplateSelection.csproj            |  55 ++++
+ WPF2022/25 703 AutoTemplateSelection/App.config    |   6 +
+ .../AutoTemplateSelection.xaml                     |  52 ++++
+ WPF2022/26 749 People/26 749 People.csproj         |  60 +++++
+ WPF2022/26 749 People/App.config                   |   6 +
+ WPF2022/26 749 People/MultiRecordDataEntry.cs      |  95 +++++++
+ WPF2022/26 749 People/MultiRecordDataEntry.xaml    |  38 +++
+ WPF2022/26 749 People/People.cs                    |  57 ++++
+ .../26 756 NavigationBar.csproj                    |  50 ++++
+ WPF2022/26 756 NavigationBar/App.config            |   6 +
+ WPF2022/26 756 NavigationBar/CodeFile1.cs          | 126 +++++++++
+ .../27 786 SelfPortraitSansGlasses.csproj          |  57 ++++
+ WPF2022/27 786 SelfPortraitSansGlasses/App.config  |   6 +
+ .../UserControl1.xaml                              |  46 ++++
+ .../UserControl1.xaml.cs                           |  28 ++
+ .../27 788 ScalableFace/27 788 ScalableFace.csproj |  56 ++++
+ WPF2022/27 788 ScalableFace/App.config             |   6 +
+ WPF2022/27 788 ScalableFace/ScalableFace.xaml      |  28 ++
+ WPF2022/28 809 Dumbbell/28 809 Dumbbell.csproj     |  55 ++++
+ WPF2022/28 809 Dumbbell/App.config                 |   6 +
+ WPF2022/28 809 Dumbbell/Dumbbell.xaml              |  21 ++
+ .../28 816 FigureWithArcs.csproj                   |  57 ++++
+ WPF2022/28 816 FigureWithArcs/App.config           |   6 +
+ WPF2022/28 816 FigureWithArcs/UserControl1.xaml    |  30 +++
+ WPF2022/28 816 FigureWithArcs/UserControl1.xaml.cs |  28 ++
+ .../28 828 Text Geometry.csproj                    |  96 +++----
+ .../29 856 TextDropShadow.csproj                   |  53 ++++
+ WPF2022/29 856 TextDropShadow/App.config           |   6 +
+ WPF2022/29 856 TextDropShadow/TextDropShadow.xaml  |  15 ++
+ .../29 858 EmpiricalTiltedTextShadow.csproj        |  57 ++++
+ .../29 858 EmpiricalTiltedTextShadow/App.config    |   6 +
+ .../UserControl1.xaml                              |  32 +++
+ .../UserControl1.xaml.cs                           |  28 ++
+ .../30 867 EnlargeButtonWithTimer.csproj           |  94 +++----
+ .../30 869 EnlargeButtonWithAnimation.csproj       |  96 +++----
+ .../30 894 AnimatedCircle.csproj                   |  59 +++++
+ WPF2022/30 894 AnimatedCircle/AnimatedCircle.cs    |  21 ++
+ WPF2022/30 894 AnimatedCircle/App.config           |   6 +
+ .../30 894 AnimatedCircle/RenderTheAnimation.cs    |  19 ++
+ .../30 894 AnimatedCircle/SquaringTheCircle.xaml   |  40 +++
+ .../30 895 RenderTheAnimation.csproj               |  96 +++----
+ WPF2022/30 896 Pulse/30 896 Pulse.csproj           |  57 ++++
+ WPF2022/30 896 Pulse/App.config                    |   6 +
+ WPF2022/30 896 Pulse/UserControl1.xaml             |  28 ++
+ WPF2022/30 896 Pulse/UserControl1.xaml.cs          |  28 ++
+ .../31 911 CreateIndexedBitmap.csproj              |  94 +++----
+ .../ConvertedBitmapChain.xaml                      |  18 ++
+ .../31 912 CreateFullColorBitmap.csproj            |  47 ++++
+ WPF2022/31 912 CreateFullColorBitmap/App.config    |   6 +
+ WPF2022/31 912 CreateFullColorBitmap/CodeFile1.cs  |  38 +++
+ WPF2022/DirLis.txt                                 | 143 ++++++----
+ WPF2022/PrjList.txt                                |  85 ++++--
+ WPF2022/WPF2022.sln                                | 222 +++++++++++++++-
+ 289 files changed, 12778 insertions(+), 3503 deletions(-)
+ create mode 100644 WPF2022/.editorconfig
+ create mode 100644 WPF2022/04 080 CommandTheButton/04 080 CommandTheButton.cs
+ create mode 100644 WPF2022/04 080 CommandTheButton/04 080 CommandTheButton.csproj
+ create mode 100644 WPF2022/04 080 CommandTheButton/Properties/AssemblyInfo.cs
+ create mode 100644 WPF2022/04 080 CommandTheButton/Properties/Resources.Designer.cs
+ create mode 100644 WPF2022/04 080 CommandTheButton/Properties/Resources.resx
+ create mode 100644 WPF2022/04 080 CommandTheButton/Properties/Settings.Designer.cs
+ create mode 100644 WPF2022/04 080 CommandTheButton/Properties/Settings.settings
+ create mode 100644 WPF2022/04 082 ToggleTheButton/ToggleTheButton.cs
+ create mode 100644 WPF2022/05 108 TuneTheRadio/App.xaml
+ create mode 100644 WPF2022/05 108 TuneTheRadio/App.xaml.cs
+ create mode 100644 WPF2022/05 108 TuneTheRadio/MainWindow.xaml
+ create mode 100644 WPF2022/05 108 TuneTheRadio/MainWindow.xaml.cs
+ create mode 100644 WPF2022/05 108 TuneTheRadio/Properties/AssemblyInfo.cs
+ create mode 100644 WPF2022/05 108 TuneTheRadio/Properties/Resources.Designer.cs
+ create mode 100644 WPF2022/05 108 TuneTheRadio/Properties/Resources.resx
+ create mode 100644 WPF2022/05 108 TuneTheRadio/Properties/Settings.Designer.cs
+ create mode 100644 WPF2022/05 108 TuneTheRadio/Properties/Settings.settings
+ create mode 100644 WPF2022/06 124 EnterTheGrid/App.xaml
+ create mode 100644 WPF2022/06 124 EnterTheGrid/App.xaml.cs
+ create mode 100644 WPF2022/06 124 EnterTheGrid/MainWindow.xaml
+ create mode 100644 WPF2022/06 124 EnterTheGrid/MainWindow.xaml.cs
+ create mode 100644 WPF2022/06 124 EnterTheGrid/Properties/AssemblyInfo.cs
+ create mode 100644 WPF2022/06 124 EnterTheGrid/Properties/Resources.Designer.cs
+ create mode 100644 WPF2022/06 124 EnterTheGrid/Properties/Resources.resx
+ create mode 100644 WPF2022/06 124 EnterTheGrid/Properties/Settings.Designer.cs
+ create mode 100644 WPF2022/06 124 EnterTheGrid/Properties/Settings.settings
+ create mode 100644 WPF2022/07 146 PlayJeuDeTacquin/07 143 Tile.cs
+ create mode 100644 WPF2022/07 146 PlayJeuDeTacquin/07 145 Empty.cs
+ create mode 100644 WPF2022/07 146 PlayJeuDeTacquin/07 146 PlayJeuDeTacquin.cs
+ create mode 100644 WPF2022/07 146 PlayJeuDeTacquin/07 146 PlayJeuDeTacquin.csproj
+ create mode 100644 WPF2022/07 146 PlayJeuDeTacquin/App.config
+ create mode 100644 WPF2022/07 146 PlayJeuDeTacquin/packages.config
+ create mode 100644 WPF2022/08 161 SetSpaceProperty/08 157 SpaceButton.cs
+ create mode 100644 WPF2022/08 161 SetSpaceProperty/08 160 SapceWindow.cs
+ create mode 100644 WPF2022/08 161 SetSpaceProperty/SpaceButton.cs
+ create mode 100644 WPF2022/08 161 SetSpaceProperty/SpaceWindow.cs
+ create mode 100644 WPF2022/11 216 EncloseElementInEllipse/11 213 EllipseWithChild.cs
+ create mode 100644 WPF2022/11 216 EncloseElementInEllipse/11 216 EncloseElementInEllipse.cs
+ create mode 100644 WPF2022/11 216 EncloseElementInEllipse/11 216 EncloseElementInEllipse.csproj
+ create mode 100644 WPF2022/11 216 EncloseElementInEllipse/App.config
+ create mode 100644 WPF2022/11 216 EncloseElementInEllipse/Properties/AssemblyInfo.cs
+ create mode 100644 WPF2022/11 216 EncloseElementInEllipse/Properties/Resources.Designer.cs
+ create mode 100644 WPF2022/11 216 EncloseElementInEllipse/Properties/Resources.resx
+ create mode 100644 WPF2022/11 216 EncloseElementInEllipse/Properties/Settings.Designer.cs
+ create mode 100644 WPF2022/11 216 EncloseElementInEllipse/Properties/Settings.settings
+ create mode 100644 WPF2022/11 219 RoundedButton/11 217 RoundedButtonDecorator.cs
+ create mode 100644 WPF2022/11 219 RoundedButton/11 219 RoundedButton.cs
+ create mode 100644 WPF2022/11 219 RoundedButton/11 219 RoundedButton.csproj
+ create mode 100644 WPF2022/11 219 RoundedButton/11 222 CalculateInHex.cs
+ create mode 100644 WPF2022/11 219 RoundedButton/App.config
+ create mode 100644 WPF2022/12 250 PaintOnCanvasClone/12 250 PaintOnCanvasClone.cs
+ create mode 100644 WPF2022/12 250 PaintOnCanvasClone/12 250 PaintOnCanvasClone.csproj
+ create mode 100644 WPF2022/12 250 PaintOnCanvasClone/App.config
+ create mode 100644 WPF2022/12 250 PaintOnCanvasClone/Properties/AssemblyInfo.cs
+ create mode 100644 WPF2022/12 250 PaintOnCanvasClone/Properties/Resources.Designer.cs
+ create mode 100644 WPF2022/12 250 PaintOnCanvasClone/Properties/Resources.resx
+ create mode 100644 WPF2022/12 250 PaintOnCanvasClone/Properties/Settings.Designer.cs
+ create mode 100644 WPF2022/12 250 PaintOnCanvasClone/Properties/Settings.settings
+ create mode 100644 WPF2022/12 252 Diagonal/12 252 Diagonal.csproj
+ create mode 100644 WPF2022/12 252 Diagonal/App.config
+ create mode 100644 WPF2022/12 252 Diagonal/DiagonalPanel.cs
+ create mode 100644 WPF2022/12 252 Diagonal/DiagonalizeTheButtons.cs
+ create mode 100644 WPF2022/13 235 ColorGrid/11 235 ColorGrid.cs
+ create mode 100644 WPF2022/13 235 ColorGrid/11 235 ColorGrid.csproj
+ create mode 100644 WPF2022/13 235 ColorGrid/App.config
+ create mode 100644 WPF2022/13 235 ColorGrid/Properties/AssemblyInfo.cs
+ create mode 100644 WPF2022/13 235 ColorGrid/Properties/Resources.Designer.cs
+ create mode 100644 WPF2022/13 235 ColorGrid/Properties/Resources.resx
+ create mode 100644 WPF2022/13 235 ColorGrid/Properties/Settings.Designer.cs
+ create mode 100644 WPF2022/13 235 ColorGrid/Properties/Settings.settings
+ create mode 100644 WPF2022/13 277 ListNamedBrushes/13 276 NamedBrush.cs
+ create mode 100644 WPF2022/13 277 ListNamedBrushes/13 277 ListNamedBrushes.cs
+ create mode 100644 WPF2022/13 277 ListNamedBrushes/13 277 ListNamedBrushes.csproj
+ create mode 100644 WPF2022/13 277 ListNamedBrushes/App.config
+ create mode 100644 WPF2022/14 303 CheckTheWindowStyle/14 303 CheckTheWindowStyle.cs
+ create mode 100644 WPF2022/14 303 CheckTheWindowStyle/14 303 CheckTheWindowStyle.csproj
+ create mode 100644 WPF2022/14 303 CheckTheWindowStyle/App.config
+ create mode 100644 WPF2022/14 303 CheckTheWindowStyle/Properties/AssemblyInfo.cs
+ create mode 100644 WPF2022/14 303 CheckTheWindowStyle/Properties/Resources.Designer.cs
+ create mode 100644 WPF2022/14 303 CheckTheWindowStyle/Properties/Resources.resx
+ create mode 100644 WPF2022/14 303 CheckTheWindowStyle/Properties/Settings.Designer.cs
+ create mode 100644 WPF2022/14 303 CheckTheWindowStyle/Properties/Settings.settings
+ create mode 100644 WPF2022/14 310 CutCopyAndPaste/14 310 CutCopyAndPaste.csproj
+ create mode 100644 WPF2022/14 310 CutCopyAndPaste/App.config
+ create mode 100644 WPF2022/14 310 CutCopyAndPaste/CutCopyAndPaste.cs
+ create mode 100644 WPF2022/15 330 MoveTheToolbar/15 330 MoveTheToolbar.csproj
+ create mode 100644 WPF2022/15 330 MoveTheToolbar/App.config
+ create mode 100644 WPF2022/15 330 MoveTheToolbar/CodeFile1.cs
+ create mode 100644 WPF2022/15 332 FormatRichText/15 332 FormatRichText.cs
+ create mode 100644 "WPF2022/15 332 FormatRichText/15 332 FormatRi\321\201hText.csproj"
+ create mode 100644 WPF2022/15 332 FormatRichText/15 333 FormatRichText.File.cs
+ create mode 100644 WPF2022/15 332 FormatRichText/15 337 FormatRichText.Edit.cs
+ create mode 100644 WPF2022/15 332 FormatRichText/15 340 FormatRichText.Chars.cs
+ create mode 100644 WPF2022/15 332 FormatRichText/15 347 FormatRichText.Para.cs
+ create mode 100644 WPF2022/15 332 FormatRichText/15 350 FormatRichText.Status.cs
+ create mode 100644 WPF2022/15 332 FormatRichText/App.config
+ create mode 100644 WPF2022/19 478 XamlStackPanel/19 478 XamlStackPanel.csproj
+ create mode 100644 WPF2022/19 478 XamlStackPanel/MainWindow.xaml
+ create mode 100644 WPF2022/19 479 XamlPage/19 479 XamlPage.csproj
+ create mode 100644 WPF2022/19 479 XamlPage/App.config
+ create mode 100644 WPF2022/19 479 XamlPage/XamlPage.xaml
+ create mode 100644 WPF2022/20 506 XamlCruncherSettings/20 506 XamlCruncherSettings.csproj
+ create mode 100644 WPF2022/20 506 XamlCruncherSettings/App.config
+ create mode 100644 WPF2022/20 506 XamlCruncherSettings/App.xaml
+ create mode 100644 WPF2022/20 506 XamlCruncherSettings/App.xaml.cs
+ create mode 100644 WPF2022/20 506 XamlCruncherSettings/MainWindow.xaml
+ create mode 100644 WPF2022/20 506 XamlCruncherSettings/MainWindow.xaml.cs
+ create mode 100644 WPF2022/20 506 XamlCruncherSettings/Properties/AssemblyInfo.cs
+ create mode 100644 WPF2022/20 506 XamlCruncherSettings/Properties/Resources.Designer.cs
+ create mode 100644 WPF2022/20 506 XamlCruncherSettings/Properties/Resources.resx
+ create mode 100644 WPF2022/20 506 XamlCruncherSettings/Properties/Settings.Designer.cs
+ create mode 100644 WPF2022/20 506 XamlCruncherSettings/Properties/Settings.settings
+ create mode 100644 WPF2022/20 514 XamlTabSpacesDialog/20 514 XamlTabSpacesDialog.csproj
+ create mode 100644 WPF2022/20 514 XamlTabSpacesDialog/App.config
+ create mode 100644 WPF2022/20 514 XamlTabSpacesDialog/XamlTabSpacesDialog.cs
+ create mode 100644 WPF2022/20 514 XamlTabSpacesDialog/XamlTabSpacesDialog.xaml
+ create mode 100644 WPF2022/21 550 GradientBrushResourceDemo/21 550 GradientBrushResourceDemo.csproj
+ create mode 100644 WPF2022/21 550 GradientBrushResourceDemo/App.xaml
+ create mode 100644 WPF2022/21 550 GradientBrushResourceDemo/App.xaml.cs
+ create mode 100644 WPF2022/21 550 GradientBrushResourceDemo/AssemblyInfo.cs
+ create mode 100644 WPF2022/21 550 GradientBrushResourceDemo/MainWindow.xaml
+ create mode 100644 WPF2022/21 550 GradientBrushResourceDemo/MainWindow.xaml.cs
+ create mode 100644 WPF2022/21 550 MyApp/21 550 MyApp.csproj
+ create mode 100644 WPF2022/21 550 MyApp/App.config
+ create mode 100644 WPF2022/21 550 MyApp/App.xaml
+ create mode 100644 WPF2022/21 550 MyApp/App.xaml.cs
+ create mode 100644 WPF2022/21 550 MyApp/MainWindow.xaml
+ create mode 100644 WPF2022/21 550 MyApp/MainWindow.xaml.cs
+ create mode 100644 WPF2022/21 550 MyApp/Properties/AssemblyInfo.cs
+ create mode 100644 WPF2022/21 550 MyApp/Properties/Resources.Designer.cs
+ create mode 100644 WPF2022/21 550 MyApp/Properties/Resources.resx
+ create mode 100644 WPF2022/21 550 MyApp/Properties/Settings.Designer.cs
+ create mode 100644 WPF2022/21 550 MyApp/Properties/Settings.settings
+ create mode 100644 WPF2022/21 553 EnvironmentInfo/21 553 EnvironmentInfo.csproj
+ create mode 100644 WPF2022/21 553 EnvironmentInfo/App.config
+ create mode 100644 WPF2022/21 553 EnvironmentInfo/EnvironmentInfo.xaml
+ create mode 100644 WPF2022/22 584 YellowPadWindow.Help/22 584 YellowPadWindow.Help.csproj
+ create mode 100644 WPF2022/22 584 YellowPadWindow.Help/App.config
+ create mode 100644 WPF2022/22 584 YellowPadWindow.Help/EraserToolDialog.xaml
+ create mode 100644 WPF2022/22 584 YellowPadWindow.Help/YellowPadHelp.cs
+ create mode 100644 WPF2022/22 584 YellowPadWindow.Help/YellowPadHelp.xaml
+ create mode 100644 WPF2022/22 597 Vitals/22 597 Vitals.csproj
+ create mode 100644 WPF2022/22 597 Vitals/App.config
+ create mode 100644 WPF2022/22 597 Vitals/CodeFile1.cs
+ create mode 100644 WPF2022/23 630 BindScrollBarToLabel/23 630 BindScrollBarToLabel.csproj
+ create mode 100644 WPF2022/23 630 BindScrollBarToLabel/App.config
+ create mode 100644 WPF2022/23 630 BindScrollBarToLabel/BindScrollBarToLabel.xaml
+ create mode 100644 WPF2022/23 631 BindingWithDataContext/23 631 BindingWithDataContext.csproj
+ create mode 100644 WPF2022/23 631 BindingWithDataContext/App.config
+ create mode 100644 WPF2022/23 631 BindingWithDataContext/UserControl1.xaml
+ create mode 100644 WPF2022/23 631 BindingWithDataContext/UserControl1.xaml.cs
+ create mode 100644 WPF2022/24 661 StyleWithMultipleElements/24 661 StyleWithMultipleElements.csproj
+ create mode 100644 WPF2022/24 661 StyleWithMultipleElements/App.config
+ create mode 100644 WPF2022/24 661 StyleWithMultipleElements/UserControl1.xaml
+ create mode 100644 WPF2022/24 661 StyleWithMultipleElements/UserControl1.xaml.cs
+ create mode 100644 WPF2022/25 690 ToggleSwitch/25 690 ToggleSwitch.csproj
+ create mode 100644 WPF2022/25 690 ToggleSwitch/App.config
+ create mode 100644 WPF2022/25 690 ToggleSwitch/UserControl1.xaml
+ create mode 100644 WPF2022/25 690 ToggleSwitch/UserControl1.xaml.cs
+ create mode 100644 WPF2022/25 703 AutoTemplateSelection/25 703 AutoTemplateSelection.csproj
+ create mode 100644 WPF2022/25 703 AutoTemplateSelection/App.config
+ create mode 100644 WPF2022/25 703 AutoTemplateSelection/AutoTemplateSelection.xaml
+ create mode 100644 WPF2022/26 749 People/26 749 People.csproj
+ create mode 100644 WPF2022/26 749 People/App.config
+ create mode 100644 WPF2022/26 749 People/MultiRecordDataEntry.cs
+ create mode 100644 WPF2022/26 749 People/MultiRecordDataEntry.xaml
+ create mode 100644 WPF2022/26 749 People/People.cs
+ create mode 100644 WPF2022/26 756 NavigationBar/26 756 NavigationBar.csproj
+ create mode 100644 WPF2022/26 756 NavigationBar/App.config
+ create mode 100644 WPF2022/26 756 NavigationBar/CodeFile1.cs
+ create mode 100644 WPF2022/27 786 SelfPortraitSansGlasses/27 786 SelfPortraitSansGlasses.csproj
+ create mode 100644 WPF2022/27 786 SelfPortraitSansGlasses/App.config
+ create mode 100644 WPF2022/27 786 SelfPortraitSansGlasses/UserControl1.xaml
+ create mode 100644 WPF2022/27 786 SelfPortraitSansGlasses/UserControl1.xaml.cs
+ create mode 100644 WPF2022/27 788 ScalableFace/27 788 ScalableFace.csproj
+ create mode 100644 WPF2022/27 788 ScalableFace/App.config
+ create mode 100644 WPF2022/27 788 ScalableFace/ScalableFace.xaml
+ create mode 100644 WPF2022/28 809 Dumbbell/28 809 Dumbbell.csproj
+ create mode 100644 WPF2022/28 809 Dumbbell/App.config
+ create mode 100644 WPF2022/28 809 Dumbbell/Dumbbell.xaml
+ create mode 100644 WPF2022/28 816 FigureWithArcs/28 816 FigureWithArcs.csproj
+ create mode 100644 WPF2022/28 816 FigureWithArcs/App.config
+ create mode 100644 WPF2022/28 816 FigureWithArcs/UserControl1.xaml
+ create mode 100644 WPF2022/28 816 FigureWithArcs/UserControl1.xaml.cs
+ create mode 100644 WPF2022/29 856 TextDropShadow/29 856 TextDropShadow.csproj
+ create mode 100644 WPF2022/29 856 TextDropShadow/App.config
+ create mode 100644 WPF2022/29 856 TextDropShadow/TextDropShadow.xaml
+ create mode 100644 WPF2022/29 858 EmpiricalTiltedTextShadow/29 858 EmpiricalTiltedTextShadow.csproj
+ create mode 100644 WPF2022/29 858 EmpiricalTiltedTextShadow/App.config
+ create mode 100644 WPF2022/29 858 EmpiricalTiltedTextShadow/UserControl1.xaml
+ create mode 100644 WPF2022/29 858 EmpiricalTiltedTextShadow/UserControl1.xaml.cs
+ create mode 100644 WPF2022/30 894 AnimatedCircle/30 894 AnimatedCircle.csproj
+ create mode 100644 WPF2022/30 894 AnimatedCircle/AnimatedCircle.cs
+ create mode 100644 WPF2022/30 894 AnimatedCircle/App.config
+ create mode 100644 WPF2022/30 894 AnimatedCircle/RenderTheAnimation.cs
+ create mode 100644 WPF2022/30 894 AnimatedCircle/SquaringTheCircle.xaml
+ create mode 100644 WPF2022/30 896 Pulse/30 896 Pulse.csproj
+ create mode 100644 WPF2022/30 896 Pulse/App.config
+ create mode 100644 WPF2022/30 896 Pulse/UserControl1.xaml
+ create mode 100644 WPF2022/30 896 Pulse/UserControl1.xaml.cs
+ create mode 100644 WPF2022/31 911 CreateIndexedBitmap/ConvertedBitmapChain.xaml
+ create mode 100644 WPF2022/31 912 CreateFullColorBitmap/31 912 CreateFullColorBitmap.csproj
+ create mode 100644 WPF2022/31 912 CreateFullColorBitmap/App.config
+ create mode 100644 WPF2022/31 912 CreateFullColorBitmap/CodeFile1.cs

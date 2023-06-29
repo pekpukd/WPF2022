@@ -139,6 +139,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решен
 	ProjectSection(SolutionItems) = preProject
 		DirLis.txt = DirLis.txt
 		PrjList.txt = PrjList.txt
+		ZemskovMerge.txt = ZemskovMerge.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 024 InheritAppAndWindow", "01 024 InheritAppAndWindow\Project1\01 024 InheritAppAndWindow.csproj", "{40A8517C-BDFC-4947-9F32-9A1C3812242E}"
